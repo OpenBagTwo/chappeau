@@ -1,0 +1,9 @@
+{
+   "pack":{
+      "pack_format": 0,
+      "description": [
+			{"text":"Ce n'Est Pas Mon Chapeau","color":"gold"},
+			{"text":"\nv2022.06.19 Credits in README","color":"aqua"}
+		]
+   }
+}

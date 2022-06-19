@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/carved_pumpkin",
+
+    "overrides": [
+        {"predicate": {"custom_model_data": 1}, "model": "item/custom/him_65x65x64"}
+    ]
+}
+
