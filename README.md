@@ -46,11 +46,25 @@ Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:grass{CustomModelData:1}`
 
+### Steam Deck
+
+**Warning: this item causes intense lag!**
+
+Replaces: Poisonous Potato (please do not eat)
+
+Custom Data Slot: 1
+
+Command to Obtain: `/give @s minecraft:poisonous_potato{CustomModelData:1}`
+
 ## Credits and Acknowledgements
 
-The Cursed Goomba model is courtesy of [Alesan99](https://github.com/alesan99/mari0_ae).
+The Cursed Goomba model is courtesy of [Alesan99](https://github.com/alesan99/mari0_ae)
 
-All models were baked in [Blender](https://www.blender.org/) and converted using
+The Steam Deck was modeled by [Alastair Low](https://www.youtube.com/watch?v=6nbgSQT-V6g)
+and is [available from sketchfab](https://sketchfab.com/3d-models/steam-deck-console-46e0c05675a7442dbe73f261436e6819)
+under a Creative Commons Attribution license.
+
+All models were remapped and baked in [Blender](https://www.blender.org/) then converted using
 [voxelizer](https://drububu.com/miscellaneous/voxelizer). Several were additionally
 edited using [Blockbench](https://www.blockbench.net/).
 
@@ -74,5 +88,4 @@ This resourcepack and its contents--including model assets and textures--are lic
 under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html). If you require a more permissive
 license, I recommend making your own pack and assets using the templates, programs and
 tutorials linked above.
-
   
