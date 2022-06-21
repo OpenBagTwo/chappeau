@@ -56,6 +56,14 @@ Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:poisonous_potato{CustomModelData:1}`
 
+### Wheatley
+
+Replaces: Carved Pumpkin (wearable)
+
+Custom Data Slot: 2
+
+Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:2}`
+
 ## Credits and Acknowledgements
 
 The Cursed Goomba model is courtesy of [Alesan99](https://github.com/alesan99/mari0_ae)
@@ -63,6 +71,10 @@ The Cursed Goomba model is courtesy of [Alesan99](https://github.com/alesan99/ma
 The Steam Deck was modeled by [Alastair Low](https://www.youtube.com/watch?v=6nbgSQT-V6g)
 and is [available from sketchfab](https://sketchfab.com/3d-models/steam-deck-console-46e0c05675a7442dbe73f261436e6819)
 under a Creative Commons Attribution license.
+
+The model for Wheatley comes from bunbunny via
+[sketchfab](https://sketchfab.com/3d-models/wheatley-b6f0d60656a1470e80f6d1e4f3b611ab)
+and is available under a Creative Commons Attribution license.
 
 All models were remapped and baked in [Blender](https://www.blender.org/) then converted using
 [voxelizer](https://drububu.com/miscellaneous/voxelizer). Several were additionally
