@@ -1,0 +1,12 @@
+# Desc: Periodically calls the various item-replacing functions
+#
+# Called by: #minecraft:load
+
+execute at @p positioned ^ ^1 ^1 if block ~ ~ ~ minecraft:brewing_stand{CustomName:'{"text":"Hairo V60"}'} run function chappeau:caffeinate
+execute at @p positioned ^ ^2 ^1 if block ~ ~ ~ minecraft:brewing_stand{CustomName:'{"text":"Hairo V60"}'} run function chappeau:caffeinate
+execute at @p positioned ^ ^2 ^2 if block ~ ~ ~ minecraft:brewing_stand{CustomName:'{"text":"Hairo V60"}'} run function chappeau:caffeinate
+execute at @p positioned ^ ^1 ^1 if block ~ ~ ~ minecraft:brewing_stand{CustomName:'{"text":"Chemex"}'} run function chappeau:caffeinate
+execute at @p positioned ^ ^2 ^1 if block ~ ~ ~ minecraft:brewing_stand{CustomName:'{"text":"Chemex"}'} run function chappeau:caffeinate
+execute at @p positioned ^ ^2 ^2 if block ~ ~ ~ minecraft:brewing_stand{CustomName:'{"text":"Chemex"}'} run function chappeau:caffeinate
+
+schedule function chappeau:second 1s
