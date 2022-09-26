@@ -1,0 +1,23 @@
+{
+    "entity.ender_pearl.throw": {
+        "sounds": ["wheeeptide"],
+        "replace": true
+    },
+    "entity.ender_eye.launch": {
+        "sounds": ["wheeptide"],
+        "replace": true
+    },
+    "entity.ender_eye.death": {
+        "sounds": ["the_state_that_were_in", "tried_to_help"],
+        "replace": true
+    },
+    "block.end_portal_frame.fill": {
+        "sounds": ["boop"],
+        "replace": true
+    },
+    "block.end_portal.spawn": {
+        "sounds": ["going_home"],
+        "replace": true
+    }
+}
+

@@ -23,9 +23,9 @@ execute if block ~ ~ ~ minecraft:brewing_stand{Items:[{tag:{Potion:"minecraft:lo
 execute if block ~ ~ ~ minecraft:brewing_stand{Items:[{tag:{Potion:"minecraft:healing"}}]} run data modify block ~ ~ ~ Items[{tag:{Potion:"minecraft:healing"}}] merge value {tag:{CustomModelData:1, display:{Name:'{"text":"Ndumberi Peaberry (12oz)"}'}}}
 execute if block ~ ~ ~ minecraft:brewing_stand{Items:[{tag:{Potion:"minecraft:strong_healing"}}]} run data modify block ~ ~ ~ Items[{tag:{Potion:"minecraft:strong_healing"}}] merge value {tag:{CustomModelData:2, display:{Name:'{"text":"Ndumberi Peaberry (16oz)"}'}}}
 
-execute if block ~ ~ ~ minecraft:brewing_stand{Items:[{tag:{Potion:"minecraft:regeneration"}}]} run data modify block ~ ~ ~ Items[{tag:{Potion:"minecraft:regeneration"}}] merge value {tag:{CustomModelData:1, display:{Name:'{"text":"Cimitro Luna (12oz)"}'}}}
-execute if block ~ ~ ~ minecraft:brewing_stand{Items:[{tag:{Potion:"minecraft:long_regeneration"}}]} run data modify block ~ ~ ~ Items[{tag:{Potion:"minecraft:long_regeneration"}}] merge value {tag:{CustomModelData:2, display:{Name:'{"text":"Cimitro Luna (16oz)"}'}}}
-execute if block ~ ~ ~ minecraft:brewing_stand{Items:[{tag:{Potion:"minecraft:strong_regeneration"}}]} run data modify block ~ ~ ~ Items[{tag:{Potion:"minecraft:strong_regeneration"}}] merge value {tag:{CustomModelData:3, display:{Name:'{"text":"Cimitro Luna (Espresso)"}'}}}
+execute if block ~ ~ ~ minecraft:brewing_stand{Items:[{tag:{Potion:"minecraft:regeneration"}}]} run data modify block ~ ~ ~ Items[{tag:{Potion:"minecraft:regeneration"}}] merge value {tag:{CustomModelData:1, display:{Name:'{"text":"Cimitrio Luna (12oz)"}'}}}
+execute if block ~ ~ ~ minecraft:brewing_stand{Items:[{tag:{Potion:"minecraft:long_regeneration"}}]} run data modify block ~ ~ ~ Items[{tag:{Potion:"minecraft:long_regeneration"}}] merge value {tag:{CustomModelData:2, display:{Name:'{"text":"Cimitrio Luna (16oz)"}'}}}
+execute if block ~ ~ ~ minecraft:brewing_stand{Items:[{tag:{Potion:"minecraft:strong_regeneration"}}]} run data modify block ~ ~ ~ Items[{tag:{Potion:"minecraft:strong_regeneration"}}] merge value {tag:{CustomModelData:3, display:{Name:'{"text":"Cimitrio Luna (Espresso)"}'}}}
 
 
 execute if block ~ ~ ~ minecraft:brewing_stand{Items:[{tag:{Potion:"minecraft:strength"}}]} run data modify block ~ ~ ~ Items[{tag:{Potion:"minecraft:strength"}}] merge value {tag:{CustomModelData:1, display:{Name:'{"text":"Minga Cabrera (12oz)"}'}}}
