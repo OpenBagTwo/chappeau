@@ -1,8 +1,4 @@
 {
-    "entity.ender_pearl.throw": {
-        "sounds": ["wheeeptide"],
-        "replace": true
-    },
     "hermit.pearl.wheeptide": {
         "sounds": ["wheeptide"]
     },
