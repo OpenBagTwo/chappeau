@@ -24,6 +24,14 @@ Statues book. Finally, any items that replace carved pumpkins can be **dispensed
 
 ## Available Items
 
+### Aquarium Core
+
+Replaces: Carved Pumpkin (wearable)
+
+Custom Data Slot: 3
+
+Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:3}`
+
 ### Coffee (Small)
 
 Replaces: Potion (any)
@@ -68,7 +76,15 @@ Replaces: Brown Mushroom
 
 Custom Data Slot: 1
 
-Command to Obtain: `/give @s minecraft:brown-mushroom{CustomModelData:1}`
+Command to Obtain: `/give @s minecraft:brown_mushroom{CustomModelData:1}`
+
+### [Moonescent Pearl](https://www.youtube.com/pearlescentmoon)
+
+Replaces: Ender Pearl
+
+Custom Data Slot: 1
+
+Command to Obtain: `/give @s minecraft:ender_pearl{CustomModelData:1}`
 
 ### Oddish
 
@@ -77,6 +93,14 @@ Replaces: Grass
 Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:grass{CustomModelData:1}`
+
+### [Scarlet Pearl](https://www.youtube.com/pearlescentmoon)
+
+Replaces: Eye of Ender
+
+Custom Data Slot: 1
+
+Command to Obtain: `/give @s minecraft:ender_eye{CustomModelData:1}`
 
 ### Steam Deck
 
@@ -95,15 +119,6 @@ Replaces: Carved Pumpkin (wearable)
 Custom Data Slot: 2
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:2}`
-
-## Datapack (Optional)
-
-This repo also contains a **datapack** for obtaining some of these items in survival.
-
-### Coffee and Espresso
-
-With the datapack installed in your world, any brewing stand named "Hairo V60" or "Chemex" will brew coffee and espresso
-instead of potions (they'll all still have their original effects, just with custom names and textures).
 
 ## Credits and Acknowledgements
 
@@ -125,8 +140,7 @@ The resource pack structure was modeled after a template created by
 [CraisinLord](https://www.youtube.com/channel/UC30GyQ6HFJuZRJdFMiy8N-A)
 and demoed in [this video](https://www.youtube.com/watch?v=dtcZhtZ0PqI).
 
-The data pack structure takes cues from [VanillaTweaks]((https://vanillatweaks.net/picker/datapacks/)),
-specifically the "Silence Mobs" packs.
+PearlescentMoon textures are all courtesy of PearlescentMoon.
 
 Many thanks to the creators of
 [this `/give` command generator](https://www.mapmaking.fr/give1.16/) as
@@ -137,9 +151,6 @@ Some other tutorials and resources that were instrumental in the development of 
   - [Bake Multiple Materials to One Texture Map (Blender Tutorial) - YouTube](https://www.youtube.com/watch?v=wG6ON8wZYLc)
   - [How to bake textures in Blender - Artisticrender.com](https://artisticrender.com/how-to-bake-textures-in-blender/) --
     an honest-to-God _written guide!_
-  - [This Minecraft Bug Report](https://bugs.mojang.com/browse/MC-141876) for explaining to me why my commands were deleting
-    the first potion in the brewing stand ("works as intended" lol)
-  - [This thread on minecraftforum.net](https://www.minecraftforum.net/forums/minecraft-java-edition/redstone-discussion-and/commands-command-blocks-and/2982699-how-to-execute-if-chest-has-a-item-in-it) for providing me with a workaround to the above not-a-bug.
     
 ## License
 

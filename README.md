@@ -23,6 +23,14 @@ Statues book. Finally, any items that replace carved pumpkins can be **dispensed
 
 ## Available Items
 
+### Aquarium Core
+
+Replaces: Carved Pumpkin (wearable)
+
+Custom Data Slot: 3
+
+Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:3}`
+
 ### Coffee (Small)
 
 Replaces: Potion (any)
@@ -67,7 +75,15 @@ Replaces: Brown Mushroom
 
 Custom Data Slot: 1
 
-Command to Obtain: `/give @s minecraft:brown-mushroom{CustomModelData:1}`
+Command to Obtain: `/give @s minecraft:brown_mushroom{CustomModelData:1}`
+
+### [Moonescent Pearl](https://www.youtube.com/pearlescentmoon)
+
+Replaces: Ender Pearl
+
+Custom Data Slot: 1
+
+Command to Obtain: `/give @s minecraft:ender_pearl{CustomModelData:1}`
 
 ### Oddish
 
@@ -76,6 +92,14 @@ Replaces: Grass
 Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:grass{CustomModelData:1}`
+
+### [Scarlet Pearl](https://www.youtube.com/pearlescentmoon)
+
+Replaces: Eye of Ender
+
+Custom Data Slot: 1
+
+Command to Obtain: `/give @s minecraft:ender_eye{CustomModelData:1}`
 
 ### Steam Deck
 
@@ -126,6 +150,8 @@ and demoed in [this video](https://www.youtube.com/watch?v=dtcZhtZ0PqI).
 
 The data pack structure takes cues from [VanillaTweaks]((https://vanillatweaks.net/picker/datapacks/)),
 specifically the "Silence Mobs" packs.
+
+PearlescentMoon textures are all courtesy of PearlescentMoon.
 
 Many thanks to the creators of
 [this `/give` command generator](https://www.mapmaking.fr/give1.16/) as
