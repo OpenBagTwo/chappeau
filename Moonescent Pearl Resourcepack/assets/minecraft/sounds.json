@@ -1,0 +1,21 @@
+{
+    "hermit.pearl.wheeptide": {
+        "sounds": ["wheeptide"]
+    },
+    "hermit.pearl.teleport": {
+        "sounds": ["brought_you_here", "evil_laugh", "hello", "heyo", "hi", "hi_hi"]
+    },
+    "entity.ender_eye.death": {
+        "sounds": ["the_state_that_were_in", "tried_to_help", "all_right", "brilliant", "not_bad"],
+        "replace": true
+    },
+    "block.end_portal_frame.fill": {
+        "sounds": ["boop"],
+        "replace": true
+    },
+    "block.end_portal.spawn": {
+        "sounds": ["going_home"],
+        "replace": true
+    }
+}
+

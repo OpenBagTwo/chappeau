@@ -1,8 +1,9 @@
 # OpenBagTwo's Custom Items
 
-This repo contains a **resourcepack** that adds custom items to the game without replacing the original items.
+This is a **resourcepack** that adds custom items to the game without replacing the original items.
 
-It requires no mods, and use of any datapacks is purely optional (the datapack in this repo allows you to
+It requires no mods, and use of any datapacks is purely optional (an accompanying datapack can be found
+[here](https://github.com/OpenBagTwo/chappeau) that will allow you to
 obtain items in survival / without commands, and I strongly recommend
 [the Armor Statues Datapack](https://vanillatweaks.net/picker/datapacks/)
 for infinite posability and placement possibilities).
@@ -119,15 +120,6 @@ Custom Data Slot: 2
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:2}`
 
-## Datapack (Optional)
-
-This repo also contains a **datapack** for obtaining some of these items in survival.
-
-### Coffee and Espresso
-
-With the datapack installed in your world, any brewing stand named "Hairo V60" or "Chemex" will brew coffee and espresso
-instead of potions (they'll all still have their original effects, just with custom names and textures).
-
 ## Credits and Acknowledgements
 
 The Cursed Goomba model is courtesy of [Alesan99](https://github.com/alesan99/mari0_ae)
@@ -148,9 +140,6 @@ The resource pack structure was modeled after a template created by
 [CraisinLord](https://www.youtube.com/channel/UC30GyQ6HFJuZRJdFMiy8N-A)
 and demoed in [this video](https://www.youtube.com/watch?v=dtcZhtZ0PqI).
 
-The data pack structure takes cues from [VanillaTweaks]((https://vanillatweaks.net/picker/datapacks/)),
-specifically the "Silence Mobs" packs.
-
 PearlescentMoon textures are all courtesy of PearlescentMoon.
 
 Many thanks to the creators of
@@ -162,9 +151,6 @@ Some other tutorials and resources that were instrumental in the development of 
   - [Bake Multiple Materials to One Texture Map (Blender Tutorial) - YouTube](https://www.youtube.com/watch?v=wG6ON8wZYLc)
   - [How to bake textures in Blender - Artisticrender.com](https://artisticrender.com/how-to-bake-textures-in-blender/) --
     an honest-to-God _written guide!_
-  - [This Minecraft Bug Report](https://bugs.mojang.com/browse/MC-141876) for explaining to me why my commands were deleting
-    the first potion in the brewing stand ("works as intended" lol)
-  - [This thread on minecraftforum.net](https://www.minecraftforum.net/forums/minecraft-java-edition/redstone-discussion-and/commands-command-blocks-and/2982699-how-to-execute-if-chest-has-a-item-in-it) for providing me with a workaround to the above not-a-bug.
     
 ## License
 

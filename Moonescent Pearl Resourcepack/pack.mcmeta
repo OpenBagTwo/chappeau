@@ -1,0 +1,9 @@
+{
+   "pack":{
+      "pack_format": 9,
+      "description": [
+			{"text":"A tribute to PearlescentMoon","color":"magenta"},
+			{"text":"\n by OpenBagTwo","color":"aqua"}
+		]
+   }
+}

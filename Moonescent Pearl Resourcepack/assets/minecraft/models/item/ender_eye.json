@@ -1,0 +1,6 @@
+{
+  "parent": "item/ender_pearl",
+  "textures": {
+		"0": "scarlet_pearl"
+	}
+}
