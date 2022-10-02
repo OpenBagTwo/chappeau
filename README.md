@@ -65,6 +65,14 @@ Custom Data Slot: 3
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:3}`
 
+#### Fact Sphere
+
+Replaces: Carved Pumpkin (wearable)
+
+Custom Data Slot: 6
+
+Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:6}`
+
 #### Morgan Freeman Core
 
 Replaces: Carved Pumpkin (wearable)
@@ -72,6 +80,14 @@ Replaces: Carved Pumpkin (wearable)
 Custom Data Slot: 4
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:4}`
+
+#### Rick (the Advenute Core)
+
+Replaces: Carved Pumpkin (wearable)
+
+Custom Data Slot: 7
+
+Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:7}`
 
 #### Space Core
 
@@ -98,7 +114,6 @@ Replaces: Carved Pumpkin (wearable)
 Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1}`
-
 
 #### Little Cursed Goomba (Mini-Him)
 

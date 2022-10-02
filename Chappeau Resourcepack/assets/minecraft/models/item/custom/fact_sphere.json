@@ -1,0 +1,6 @@
+{
+	"parent": "item/custom/spacey_21x25x21",
+	"textures": {
+		"texture": "fact_sphere"
+	}
+}
