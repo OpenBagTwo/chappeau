@@ -24,15 +24,9 @@ Statues book. Finally, any items that replace carved pumpkins can be **dispensed
 
 ## Available Items
 
-### Aquarium Core
+### Caffeinated Beverages
 
-Replaces: Carved Pumpkin (wearable)
-
-Custom Data Slot: 3
-
-Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:3}`
-
-### Coffee (Small)
+#### Coffee (Small)
 
 Replaces: Potion (any)
 
@@ -42,7 +36,7 @@ Command to Obtain: `/give @s minecraft:potion{CustomModelData:1,Potion:"minecraf
 
 _or any other potion effect_
 
-### Coffee (Large)
+#### Coffee (Large)
 
 Replaces: Potion (any)
 
@@ -52,15 +46,7 @@ Command to Obtain: `/give @s minecraft:potion{CustomModelData:2,Potion:"minecraf
 
 _or any other potion effect_
 
-### Cursed Goomba (HIM)
-
-Replaces: Carved Pumpkin (wearable)
-
-Custom Data Slot: 1
-
-Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1}`
-
-### Espresso
+#### Espresso
 
 Replaces: Potion (any)
 
@@ -70,7 +56,52 @@ Command to Obtain: `/give @s minecraft:potion{CustomModelData:3,Potion:"minecraf
 
 _or any other potion effect_
 
-### Little Cursed Goomba (Mini-Him)
+### Corrupted Cores
+
+#### Aquarium Core
+
+Replaces: Carved Pumpkin (wearable)
+
+Custom Data Slot: 3
+
+Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:3}`
+
+#### Morgan Freeman Core
+
+Replaces: Carved Pumpkin (wearable)
+
+Custom Data Slot: 4
+
+Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:4}`
+
+#### Space Core
+
+Replaces: Carved Pumpkin (wearable)
+
+Custom Data Slot: 5
+
+Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:5}`
+
+#### Wheatley
+
+Replaces: Carved Pumpkin (wearable)
+
+Custom Data Slot: 2
+
+Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:2}`
+
+### Miscellaneous
+
+#### Cursed Goomba (HIM)
+
+Replaces: Carved Pumpkin (wearable)
+
+Custom Data Slot: 1
+
+Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1}`
+
+
+#### Little Cursed Goomba (Mini-Him)
 
 Replaces: Brown Mushroom
 
@@ -78,7 +109,7 @@ Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:brown_mushroom{CustomModelData:1}`
 
-### [Moonescent Pearl](https://www.youtube.com/pearlescentmoon)
+#### [Moonescent Pearl](https://www.youtube.com/pearlescentmoon)
 
 Replaces: Ender Pearl
 
@@ -86,7 +117,7 @@ Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:ender_pearl{CustomModelData:1}`
 
-### Oddish
+#### Oddish
 
 Replaces: Grass
 
@@ -94,7 +125,7 @@ Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:grass{CustomModelData:1}`
 
-### [Scarlet Pearl](https://www.youtube.com/pearlescentmoon)
+#### [Scarlet Pearl](https://www.youtube.com/pearlescentmoon)
 
 Replaces: Eye of Ender
 
@@ -102,7 +133,7 @@ Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:ender_eye{CustomModelData:1}`
 
-### Steam Deck
+#### Steam Deck
 
 **Warning: this item causes intense lag!**
 
@@ -112,13 +143,6 @@ Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:poisonous_potato{CustomModelData:1}`
 
-### Wheatley
-
-Replaces: Carved Pumpkin (wearable)
-
-Custom Data Slot: 2
-
-Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:2}`
 
 ## Credits and Acknowledgements
 
@@ -126,11 +150,15 @@ The Cursed Goomba model is courtesy of [Alesan99](https://github.com/alesan99/ma
 
 The Steam Deck was modeled by [Alastair Low](https://www.youtube.com/watch?v=6nbgSQT-V6g)
 and is [available from sketchfab](https://sketchfab.com/3d-models/steam-deck-console-46e0c05675a7442dbe73f261436e6819)
-under a Creative Commons Attribution license.
+under a [Creative Commons Attribution license](http://creativecommons.org/licenses/by/4.0/).
 
 The model for Wheatley comes from bunbunny via
 [sketchfab](https://sketchfab.com/3d-models/wheatley-b6f0d60656a1470e80f6d1e4f3b611ab)
-and is available under a Creative Commons Attribution license.
+and is available under a [Creative Commons Attribution license](http://creativecommons.org/licenses/by/4.0/).
+
+The "Space Core" model was designed by Portaller
+and was distributed via [sketchfab](https://skfb.ly/owTKA)
+and licensed under a [Creative Commons Attribution license](http://creativecommons.org/licenses/by/4.0/).
 
 All models were remapped and baked in [Blender](https://www.blender.org/) then converted using
 [voxelizer](https://drububu.com/miscellaneous/voxelizer). Several were additionally
