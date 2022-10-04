@@ -1,0 +1,9 @@
+{
+   "pack":{
+      "pack_format": 0,
+      "description": [
+			{"text":"Remove blur from carved pumpkins","color":"gold"},
+			{"text":"\nCredits in README","color":"aqua"}
+		]
+   }
+}
