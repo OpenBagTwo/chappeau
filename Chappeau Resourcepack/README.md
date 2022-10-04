@@ -116,6 +116,22 @@ Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1}`
 
+#### Infinity Armor Statue
+
+Replaces: Carved Pumpkin (wearable)
+
+Custom Data Slot: 1001
+
+Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1001}`
+
+#### Infinity Armor (Helmet Only)
+
+Replaces: Carved Pumpkin (wearable)
+
+Custom Data Slot: 1002
+
+Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1002}`
+
 #### Little Cursed Goomba (Mini-Him)
 
 Replaces: Brown Mushroom
@@ -147,6 +163,14 @@ Replaces: Eye of Ender
 Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:ender_eye{CustomModelData:1}`
+
+#### Shadow Dweller (OC)
+
+Replaces: Carved Pumpkin (wearable)
+
+Custom Data Slot: 1000
+
+Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1000}`
 
 #### Steam Deck
 
