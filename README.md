@@ -65,6 +65,8 @@ Custom Data Slot: 3
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:3}`
 
+"Filename" for 3D printing: `aquarium_core.gcode`
+
 #### Fact Sphere
 
 Replaces: Carved Pumpkin (wearable)
@@ -72,6 +74,8 @@ Replaces: Carved Pumpkin (wearable)
 Custom Data Slot: 6
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:6}`
+
+"Filename" for 3D printing: `fact_sphere.gcode`
 
 #### Morgan Freeman Core
 
@@ -81,6 +85,8 @@ Custom Data Slot: 4
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:4}`
 
+"Filename" for 3D printing: `morgan_freeman_core.gcode`
+
 #### Rick (the Advenute Core)
 
 Replaces: Carved Pumpkin (wearable)
@@ -88,6 +94,8 @@ Replaces: Carved Pumpkin (wearable)
 Custom Data Slot: 7
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:7}`
+
+"Filename" for 3D printing: `rick.gcode`
 
 #### Space Core
 
@@ -97,6 +105,8 @@ Custom Data Slot: 5
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:5}`
 
+"Filename" for 3D printing: `space_core.gcode`
+
 #### Wheatley
 
 Replaces: Carved Pumpkin (wearable)
@@ -104,6 +114,8 @@ Replaces: Carved Pumpkin (wearable)
 Custom Data Slot: 2
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:2}`
+
+"Filename" for 3D printing: `wheatley.gcode`
 
 ### Miscellaneous
 
@@ -115,6 +127,8 @@ Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1}`
 
+"Filename" for 3D printing: `him.gcode`
+
 #### Infinity Armor Statue
 
 Replaces: Carved Pumpkin (wearable)
@@ -122,6 +136,8 @@ Replaces: Carved Pumpkin (wearable)
 Custom Data Slot: 1001
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1001}`
+
+"Filename" for 3D printing: `infinity_armor_statue.gcode`
 
 #### Infinity Armor (Helmet Only)
 
@@ -131,6 +147,8 @@ Custom Data Slot: 1002
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1002}`
 
+"Filename" for 3D printing: `infinity_armor_helmet.gcode`
+
 #### Little Cursed Goomba (Mini-Him)
 
 Replaces: Brown Mushroom
@@ -138,6 +156,8 @@ Replaces: Brown Mushroom
 Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:brown_mushroom{CustomModelData:1}`
+
+"Filename" for 3D printing: `mini-him.gcode`
 
 #### [Moonescent Pearl](https://www.youtube.com/pearlescentmoon)
 
@@ -147,6 +167,8 @@ Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:ender_pearl{CustomModelData:1}`
 
+"Filename" for 3D printing: `moonescent_pearl.gcode`
+
 #### Oddish
 
 Replaces: Grass
@@ -154,6 +176,8 @@ Replaces: Grass
 Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:grass{CustomModelData:1}`
+
+"Filename" for 3D printing: `oddish.gcode`
 
 #### [Scarlet Pearl](https://www.youtube.com/pearlescentmoon)
 
@@ -163,6 +187,8 @@ Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:ender_eye{CustomModelData:1}`
 
+"Filename" for 3D printing: `scarlet_pearl.gcode`
+
 #### Shadow Dweller (OC)
 
 Replaces: Carved Pumpkin (wearable)
@@ -170,6 +196,8 @@ Replaces: Carved Pumpkin (wearable)
 Custom Data Slot: 1000
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1000}`
+
+"Filename" for 3D printing: `shadow_dweller_mask.gcode`
 
 #### Steam Deck
 
@@ -179,6 +207,7 @@ Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:poisonous_potato{CustomModelData:1}`
 
+"Filename" for 3D printing: `steam_deck.gcode`
 
 ## Datapack (Optional)
 
@@ -188,6 +217,18 @@ This repo also contains a **datapack** for obtaining some of these items in surv
 
 With the datapack installed in your world, any brewing stand named "Hairo V60" or "Chemex" will brew coffee and espresso
 instead of potions (they'll all still have their original effects, just with custom names and textures).
+
+### "3D printing" custom items
+
+To obtain any of the other custom items, craft a hopper and, using an anvil, name it
+"[Enderman 3 Pro](https://www.creality.com/products/ender-3-pro-3d-printer)".
+Directly below where you place this hopper, place a **glow item frame**, face up.
+
+Then, load any of the base (replaced) items listed above in the first slot, and in the second slot, place a piece of paper
+with the names listed for each item above (all will be lowercase, with underscores instead of spaces, and ending in ".gcode").
+
+With the datapack running, the base item will then be removed from the hopper, and the custom item will appear on the ~~heated bed~~
+glow item frame.
 
 ## Credits and Acknowledgements
 
