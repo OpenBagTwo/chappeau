@@ -27,7 +27,7 @@ Statues book. Finally, any items that replace carved pumpkins can be **dispensed
 
 #### Coffee (Small)
 
-Replaces: Potion (any)
+Base Item: Potion (any)
 
 Custom Data Slot: 1
 
@@ -37,7 +37,7 @@ _or any other potion effect_
 
 #### Coffee (Large)
 
-Replaces: Potion (any)
+Base Item: Potion (any)
 
 Custom Data Slot: 2
 
@@ -47,7 +47,7 @@ _or any other potion effect_
 
 #### Espresso
 
-Replaces: Potion (any)
+Base Item: Potion (any)
 
 Custom Data Slot: 3
 
@@ -59,7 +59,7 @@ _or any other potion effect_
 
 #### Aquarium Core
 
-Replaces: Carved Pumpkin (wearable)
+Base Item: Carved Pumpkin (wearable)
 
 Custom Data Slot: 3
 
@@ -69,7 +69,7 @@ Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:3}`
 
 #### Fact Sphere
 
-Replaces: Carved Pumpkin (wearable)
+Base Item: Carved Pumpkin (wearable)
 
 Custom Data Slot: 6
 
@@ -79,7 +79,7 @@ Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:6}`
 
 #### Morgan Freeman Core
 
-Replaces: Carved Pumpkin (wearable)
+Base Item: Carved Pumpkin (wearable)
 
 Custom Data Slot: 4
 
@@ -89,7 +89,7 @@ Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:4}`
 
 #### Rick (the Advenute Core)
 
-Replaces: Carved Pumpkin (wearable)
+Base Item: Carved Pumpkin (wearable)
 
 Custom Data Slot: 7
 
@@ -99,7 +99,7 @@ Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:7}`
 
 #### Space Core
 
-Replaces: Carved Pumpkin (wearable)
+Base Item: Carved Pumpkin (wearable)
 
 Custom Data Slot: 5
 
@@ -109,7 +109,7 @@ Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:5}`
 
 #### Wheatley
 
-Replaces: Carved Pumpkin (wearable)
+Base Item: Carved Pumpkin (wearable)
 
 Custom Data Slot: 2
 
@@ -121,7 +121,7 @@ Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:2}`
 
 #### Cursed Goomba (HIM)
 
-Replaces: Carved Pumpkin (wearable)
+Base Item: Carved Pumpkin (wearable)
 
 Custom Data Slot: 1
 
@@ -129,9 +129,28 @@ Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1}`
 
 "Filename" for 3D printing: `him.gcode`
 
+#### Ghast Legs
+
+Base Item: Ghast Tear
+
+Custom Data Slot: 1
+
+Command to Obtain: `/give @s minecraft:ghast_tear{CustomModelData:1}`
+
+"Filename" for 3D Printing: `ghast-legs.gcode`
+
+_**Special Note**: this item is meant to complement the ghast head dropped via
+the [More Mob Heads](https://www.youtube.com/watch?v=C04fwclOdQo) and 
+[Armor Statues](https://www.youtube.com/watch?v=nV9-_RacnoI) datapacks
+from [Vanilla Tweaks](https://vanillatweaks.net/picker/datapacks/). Explicitly:
+after placing an armor stand, use the Statues book to give it arms, then set the
+pose to "Attention." Once that's done, place a ghast head on its head slot and
+a ghast legs in either hand slot. Set the stand to invisible, and you'll yourself
+a tiny floating ghast!_
+
 #### Infinity Armor Statue
 
-Replaces: Carved Pumpkin (wearable)
+Base Item: Carved Pumpkin (wearable)
 
 Custom Data Slot: 1001
 
@@ -141,7 +160,7 @@ Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1001}`
 
 #### Infinity Armor (Helmet Only)
 
-Replaces: Carved Pumpkin (wearable)
+Base Item: Carved Pumpkin (wearable)
 
 Custom Data Slot: 1002
 
@@ -151,7 +170,7 @@ Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1002}`
 
 #### Little Cursed Goomba (Mini-Him)
 
-Replaces: Brown Mushroom
+Base Item: Brown Mushroom
 
 Custom Data Slot: 1
 
@@ -161,7 +180,7 @@ Command to Obtain: `/give @s minecraft:brown_mushroom{CustomModelData:1}`
 
 #### [Moonescent Pearl](https://www.youtube.com/pearlescentmoon)
 
-Replaces: Ender Pearl
+Base Item: Ender Pearl
 
 Custom Data Slot: 1
 
@@ -171,7 +190,7 @@ Command to Obtain: `/give @s minecraft:ender_pearl{CustomModelData:1}`
 
 #### Oddish
 
-Replaces: Grass
+Base Item: Grass
 
 Custom Data Slot: 1
 
@@ -181,7 +200,7 @@ Command to Obtain: `/give @s minecraft:grass{CustomModelData:1}`
 
 #### [Scarlet Pearl](https://www.youtube.com/pearlescentmoon)
 
-Replaces: Eye of Ender
+Base Item: Eye of Ender
 
 Custom Data Slot: 1
 
@@ -191,7 +210,7 @@ Command to Obtain: `/give @s minecraft:ender_eye{CustomModelData:1}`
 
 #### Shadow Dweller (OC)
 
-Replaces: Carved Pumpkin (wearable)
+Base Item: Carved Pumpkin (wearable)
 
 Custom Data Slot: 1000
 
@@ -201,7 +220,7 @@ Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1000}`
 
 #### Steam Deck
 
-Replaces: Poisonous Potato (please do not eat)
+Base Item: Poisonous Potato (please do not eat)
 
 Custom Data Slot: 1
 
