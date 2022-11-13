@@ -47,3 +47,6 @@ execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:0b, id:"minecraft:carved_p
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:0b, id:"minecraft:poisonous_potato"}, {Slot:1b, id:"minecraft:paper", tag:{display: {Name: '{"text":"steam_deck.gcode"}'}}}]} run data modify entity @e[type=minecraft:glow_item_frame, distance=0..1, limit=1] Item set value {id:"minecraft:poisonous_potato", tag:{CustomModelData:1, display:{Name:'{"text":"Steam Deck"}'}}, Count:1b}
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:0b, id:"minecraft:poisonous_potato"}, {Slot:1b, id:"minecraft:paper", tag:{display: {Name: '{"text":"steam_deck.gcode"}'}}}]} run data modify block ~ ~1 ~ Items[{Slot:0b}] merge value {Count:0b}
 
+execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:0b, id:"minecraft:ghast_tear"}, {Slot:1b, id:"minecraft:paper", tag:{display: {Name: '{"text":"ghast-legs.gcode"}'}}}]} run data modify entity @e[type=minecraft:glow_item_frame, distance=0..1, limit=1] Item set value {id:"minecraft:ghast_tear", tag:{CustomModelData:1, display:{Name:'{"text":"Ghast Legs"}'}}, Count:1b}
+execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:0b, id:"minecraft:ghast_tear"}, {Slot:1b, id:"minecraft:paper", tag:{display: {Name: '{"text":"ghast-legs.gcode"}'}}}]} run data modify block ~ ~1 ~ Items[{Slot:0b}] merge value {Count:0b}
+
