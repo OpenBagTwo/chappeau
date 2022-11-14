@@ -1,5 +1,5 @@
 {
-	"parent": "item/custom/spacey_21x25x21",
+	"parent": "item/custom/core_one",
 	"textures": {
 		"texture": "fact_sphere"
 	}
