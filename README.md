@@ -259,14 +259,13 @@ The model for Wheatley comes from bunbunny via
 [sketchfab](https://sketchfab.com/3d-models/wheatley-b6f0d60656a1470e80f6d1e4f3b611ab)
 and is available under a [Creative Commons Attribution license](http://creativecommons.org/licenses/by/4.0/).
 
-The "Space Core" model was designed by Portaller
-and was distributed via [sketchfab](https://skfb.ly/owTKA)
-and licensed under a [Creative Commons Attribution license](http://creativecommons.org/licenses/by/4.0/).
+Several models were remapped and baked in [Blender](https://www.blender.org/) then converted using
+[voxelizer](https://drububu.com/miscellaneous/voxelizer). Most were either designed or
+using [Blockbench](https://www.blockbench.net/).
 
-
-All models were remapped and baked in [Blender](https://www.blender.org/) then converted using
-[voxelizer](https://drububu.com/miscellaneous/voxelizer). Several were additionally
-edited using [Blockbench](https://www.blockbench.net/).
+Textures were edited using a combination of Blockbench,
+[PikoPixel](http://twilightedge.com/mac/pikopixel/)
+and [GIMP](https://www.gimp.org/).
 
 The resource pack structure was modeled after a template created by
 [CraisinLord](https://www.youtube.com/channel/UC30GyQ6HFJuZRJdFMiy8N-A)
