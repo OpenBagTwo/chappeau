@@ -6,7 +6,7 @@
         {"predicate": {"custom_model_data": 2}, "model": "item/custom/wheatley_32x32x31"},
         {"predicate": {"custom_model_data": 3}, "model": "item/custom/aquarium"},
         {"predicate": {"custom_model_data": 4}, "model": "item/custom/morgan_freeman_core"},
-        {"predicate": {"custom_model_data": 5}, "model": "item/custom/spacey_21x25x21"},
+        {"predicate": {"custom_model_data": 5}, "model": "item/custom/core_one"},
         {"predicate": {"custom_model_data": 6}, "model": "item/custom/fact_sphere"},
         {"predicate": {"custom_model_data": 7}, "model": "item/custom/rick"},
         {"predicate": {"custom_model_data": 1000}, "model": "item/custom/shadow_dweller"},
