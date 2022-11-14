@@ -348,6 +348,38 @@
 			}
 		}
 	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [65, 0, 0],
+			"translation": [-4.5, 0, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [65, 0, 0],
+			"translation": [-4.5, 0, 0]
+		},
+		"firstperson_righthand": {
+			"rotation": [134, 38, -7],
+			"translation": [-0.25, 2.5, 0.75]
+		},
+		"firstperson_lefthand": {
+			"rotation": [134, 38, -7],
+			"translation": [-0.25, 2.5, 0]
+		},
+		"ground": {
+			"translation": [0, 3.5, 0]
+		},
+		"gui": {
+			"rotation": [-19, 143, 0],
+			"scale": [0.74, 0.74, 0.74]
+		},
+		"head": {
+			"scale": [1.45, 1.45, 1.45]
+		},
+		"fixed": {
+			"rotation": [15, 0, 0],
+			"translation": [0, 0, -5.25]
+		}
+	},
 	"groups": [
 		{
 			"name": "sphere",
