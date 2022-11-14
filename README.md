@@ -260,8 +260,8 @@ The model for Wheatley comes from bunbunny via
 and is available under a [Creative Commons Attribution license](http://creativecommons.org/licenses/by/4.0/).
 
 Several models were remapped and baked in [Blender](https://www.blender.org/) then converted using
-[voxelizer](https://drububu.com/miscellaneous/voxelizer). Most were either designed or
-using [Blockbench](https://www.blockbench.net/).
+[voxelizer](https://drububu.com/miscellaneous/voxelizer). Most were either designed in or
+edited using [Blockbench](https://www.blockbench.net/).
 
 Textures were edited using a combination of Blockbench,
 [PikoPixel](http://twilightedge.com/mac/pikopixel/)
