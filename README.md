@@ -168,6 +168,19 @@ Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1002}`
 
 "Filename" for 3D printing: `infinity_armor_helmet.gcode`
 
+#### Jameson-Type Cyborg
+
+Base Item: Carved Pumpkin (wearable)
+
+Custom Data Slot: 2001
+
+Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:2001}`
+
+_**Note**: when placed on the head of an player, mob or item stand, this model will render
+on the ground **next to** the entity. This is intentional._
+
+"Filename" for 3D printing: `jameson.gcode`
+
 #### Little Cursed Goomba (Mini-Him)
 
 Base Item: Brown Mushroom
