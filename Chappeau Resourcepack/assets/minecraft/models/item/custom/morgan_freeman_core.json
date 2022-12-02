@@ -1,6 +1,6 @@
 {
 	"parent": "item/custom/wheatley_32x32x31",
 	"textures": {
-		"texture": "morgan_freeman_core"
+		"texture": "item/morgan_freeman_core"
 	}
 }

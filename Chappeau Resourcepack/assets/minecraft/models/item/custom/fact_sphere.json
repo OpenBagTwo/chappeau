@@ -1,6 +1,6 @@
 {
 	"parent": "item/custom/core_one",
 	"textures": {
-		"texture": "fact_sphere"
+		"texture": "item/fact_sphere"
 	}
 }

@@ -1,7 +1,7 @@
 {
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "pearlo"
+		"0": "item/pearlo"
 	},
 	"elements": [
 		{

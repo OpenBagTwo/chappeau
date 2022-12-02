@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "coffee_big",
-    "layer1": "coffee_big"
+    "layer0": "item/coffee_big",
+    "layer1": "item/coffee_big"
   },
   "display": {
     "thirdperson_righthand": {
