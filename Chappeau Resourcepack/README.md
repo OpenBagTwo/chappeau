@@ -149,6 +149,17 @@ Custom Data Slot: 1002
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1002}`
 
+#### Jameson-Type Cyborg
+
+Base Item: Carved Pumpkin (wearable)
+
+Custom Data Slot: 2001
+
+Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:2001}`
+
+_**Note**: when placed on the head of an player, mob or item stand, this model will render
+on the ground **next to** the entity. This is intentional._
+
 #### Little Cursed Goomba (Mini-Him)
 
 Base Item: Brown Mushroom
