@@ -11,8 +11,8 @@
         {"predicate": {"custom_model_data": 7}, "model": "item/custom/rick"},
         {"predicate": {"custom_model_data": 1000}, "model": "item/custom/shadow_dweller"},
         {"predicate": {"custom_model_data": 1001}, "model": "item/custom/infinity_armor"},
-        {"predicate": {"custom_model_data": 1002}, "model": "item/custom/infinity_helmet"}
-        {"predicate": {"custom_model_data": 2001}, "model": "item/custom/jameson"},
+        {"predicate": {"custom_model_data": 1002}, "model": "item/custom/infinity_helmet"},
+        {"predicate": {"custom_model_data": 2001}, "model": "item/custom/jameson"}
     ]
 }
 
