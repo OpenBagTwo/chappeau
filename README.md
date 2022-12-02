@@ -129,6 +129,17 @@ Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1}`
 
 "Filename" for 3D printing: `him.gcode`
 
+#### Double-Pointed Needles
+
+Base Item: Stone or Iron Sword
+
+Custom Data Slot: 1
+
+Command to Obtain: `/give @s minecraft:stone_sword{CustomModelData:1}`
+(or substitute `iron_sword`)
+
+"Filename" for 3D printing: `dpn.gcode`
+
 #### Ghast Legs
 
 Base Item: Ghast Tear
