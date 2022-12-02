@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [128, 128],
 	"textures": {
-		"texture": "core_one"
+		"texture": "item/core_one"
 	},
 	"elements": [
 		{

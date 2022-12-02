@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/flower_pot",
   "textures": {
-    "layer0": "espresso"
+    "layer0": "item/espresso"
   },
   "display": {
     "thirdperson_righthand": {

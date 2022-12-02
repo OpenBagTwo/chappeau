@@ -1,7 +1,7 @@
  {
   "credit": "Made with Blender and voxelizer",
   "textures": {
-   "texture": "him_65x65x64"
+   "texture": "item/him_65x65x64"
   },
   "elements": [
    {
