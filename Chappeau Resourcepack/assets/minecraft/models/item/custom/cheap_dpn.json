@@ -1,0 +1,6 @@
+{
+	"parent": "item/custom/dpn",
+	"textures": {
+		"layer0": "item/cheap_dpn"
+	}
+}
