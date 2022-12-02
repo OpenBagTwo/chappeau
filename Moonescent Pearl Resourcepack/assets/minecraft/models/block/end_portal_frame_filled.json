@@ -4,7 +4,7 @@
         "bottom": "block/end_stone",
         "top": "block/end_portal_frame_top",
         "side": "block/end_portal_frame_side",
-        "eye": "pearl_egg"
+        "eye": "item/pearl_egg"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],
