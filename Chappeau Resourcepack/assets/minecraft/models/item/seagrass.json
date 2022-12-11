@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:block/seagrass"
+  },
+  "overrides": [
+        {"predicate": {"custom_model_data": 1}, "model": "item/custom/tumeric_oddish"}
+    ]
+}

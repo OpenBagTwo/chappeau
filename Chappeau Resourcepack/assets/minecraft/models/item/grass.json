@@ -4,6 +4,6 @@
     "layer0": "minecraft:block/grass"
   },
   "overrides": [
-        {"predicate": {"custom_model_data": 1}, "model": "item/custom/oddish_53x47x31"}
+        {"predicate": {"custom_model_data": 1}, "model": "item/custom/sphere_with_the_leaves"}
     ]
 }
