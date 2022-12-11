@@ -211,6 +211,10 @@ Command to Obtain: `/give @s minecraft:grass{CustomModelData:1}`
 
 "Filename" for 3D printing: `oddish.gcode`
 
+_**Bonus**: use seagrass instead of regular grass and you'll get a yellow oddish, which is
+part of OpenBagTwo family lore_. Put in a radish instead, and you'll get a red variant
+dubbed an "Ancestor."
+
 #### [Scarlet Pearl](https://www.youtube.com/pearlescentmoon)
 
 Base Item: Eye of Ender
