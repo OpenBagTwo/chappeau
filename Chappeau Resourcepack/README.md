@@ -193,14 +193,6 @@ Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:grass{CustomModelData:1}`
 
-#### [Scarlet Pearl](https://www.youtube.com/pearlescentmoon)
-
-Base Item: Eye of Ender
-
-Custom Data Slot: 1
-
-Command to Obtain: `/give @s minecraft:ender_eye{CustomModelData:1}`
-
 #### Shadow Dweller (OC)
 
 Base Item: Carved Pumpkin (wearable)

@@ -5,7 +5,7 @@ the Ender Pearl and Eye of Ender with Pearl's heads. And when used with,
 [an accompanying datapack](https://github.com/OpenBagTwo/chappeau), said items will yell out "_WEEEPTIDE!_"
 when launched through the air.
 
-#@ _WEEEPTIDE!_ without a datapack
+## _WEEEPTIDE!_ without a datapack
 
 If you don't wish to use the companion datapack, you can overite assets/minecraft/sounds.json by renaming
 assets/minecraft/sounds.json.morepearl. Do note that the Eye of Ender sound really does not sound good when you do this.

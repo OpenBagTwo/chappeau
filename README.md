@@ -212,6 +212,8 @@ Command to Obtain: `/give @s minecraft:ender_pearl{CustomModelData:1}`
 
 "Filename" for 3D printing: `moonescent_pearl.gcode`
 
+_**Bonus**: use an Eye of Ender instead to recieve a ["5am Pearl"](https://www.youtube.com/watch?v=PvT7LQcJ4ik&list=PLxAyA97FNoKIvnWusS08z8e-TJS7F0ZSW)_
+
 #### Oddish
 
 Base Item: Grass
@@ -225,16 +227,6 @@ Command to Obtain: `/give @s minecraft:grass{CustomModelData:1}`
 _**Bonus**: use seagrass instead of regular grass and you'll get a yellow oddish, which is
 part of OpenBagTwo family lore. Put in a ~~radish~~ beetroot instead, and you'll get a red variant
 dubbed an "Ancestor."_
-
-#### [Scarlet Pearl](https://www.youtube.com/pearlescentmoon)
-
-Base Item: Eye of Ender
-
-Custom Data Slot: 1
-
-Command to Obtain: `/give @s minecraft:ender_eye{CustomModelData:1}`
-
-"Filename" for 3D printing: `scarlet_pearl.gcode`
 
 #### Shadow Dweller (OC)
 
