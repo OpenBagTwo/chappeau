@@ -1,0 +1,21 @@
+{
+    "hermit.pearl.wheeptide": {
+        "sounds": ["wheeptide"]
+    },
+    "hermit.pearl.teleport": {
+        "sounds": ["brought_you_here", "evil_laugh", "hello", "heyo", "hi", "hi_hi"]
+    },
+    "hermit.pearl.5am": {
+        "sounds": ["the_state_that_were_in", "tried_to_help", "all_right", "brilliant", "not_bad"],
+        "replace": true
+    },
+    "hermit.pearl.place": {
+        "sounds": ["boop"],
+        "replace": true
+    },
+    "hermit.peral.going_home": {
+        "sounds": ["going_home"],
+        "replace": true
+    }
+}
+
