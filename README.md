@@ -6,10 +6,10 @@ It requires no mods, and use of any datapacks is purely optional (the datapack i
 obtain items in survival / without commands, and I strongly recommend
 [the Armor Statues Datapack](https://vanillatweaks.net/picker/datapacks/)
 for infinite posability and placement possibilities).
-As such, it should be broadly compatible across recent versions of Java minecraft.
+As such, it should be broadly compatible across recent versions of Java Minecraft.
 
-The limitation is that **these are items** and as such, if you place them, they will lose all their NBT
-data and return to their default appearances.
+The limitation is that **these are items** and as such, if you place them as blocks, they will lose all
+their NBT data and return to their default appearances.
 
 The sections below list the commands to give yourself each custom item.
 
@@ -116,6 +116,49 @@ Custom Data Slot: 2
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:2}`
 
 "Filename" for 3D printing: `wheatley.gcode`
+
+### Totems of HermitCraft
+
+The _twenty eight_ custom Totems of Undying created by
+[u/BrazenWolf_](https://www.reddit.com/r/HermitCraft/comments/xnir7p/hermit_totems_s9_members_completed/)
+of the r/HermitCraft subreddit and representing the members of
+HermitCraft Season 9 are included are included in this resource pack.
+
+Base Item: Totem of Undying
+
+Custom Data Slot: 901-928
+
+Example Command to Obtain: `/give @s minecraft:totem_of_undying{CustomModelData:927}` (for GrumBot)
+
+"Filenames" for 3D printing:
+  - `docm77.gcode`
+  - `grian.gcode`
+  - `mumbo.gcode`
+  - `etho.gcode`
+  - `bdubs.gcode`
+  - `xisuma.gcode`
+  - `scar.gcode`
+  - `beef.gcode`
+  - `cleo.gcode`
+  - `cubfan.gcode`
+  - `hypno.gcode`
+  - `ijevin.gcode`
+  - `impulse.gcode`
+  - `iskal.gcode`
+  - `joehills.gcode`
+  - `keralis.gcode`
+  - `tango.gcode`
+  - `tfc.gcode`
+  - `welsknight.gcode`
+  - `xb.gcode`
+  - `zedaph.gcode`
+  - `false.gcode`
+  - `pearl.gcode`
+  - `stress.gcode`
+  - `gem.gcode`
+  - `renking.gcode`
+  - `grumbot.gcode`
+  - `impulsedwarf.gcode`
 
 ### Miscellaneous
 
@@ -274,6 +317,9 @@ glow item frame.
 The Steam Deck was modeled by me, from scratch, in Blockbench.
 
 The Cursed Goomba model is courtesy of [Alesan99](https://github.com/alesan99/mari0_ae)
+
+Hermit Totem models and textures are provided courtesy of [u/BrazenWolf_](https://www.reddit.com/user/BrazenWolf_/) and
+can be [downloaded separately](https://www.reddit.com/r/HermitCraft/comments/xnir7p/hermit_totems_s9_members_completed/).
 
 The model for Wheatley comes from bunbunny via
 [sketchfab](https://sketchfab.com/3d-models/wheatley-b6f0d60656a1470e80f6d1e4f3b611ab)
