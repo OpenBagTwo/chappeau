@@ -106,6 +106,19 @@ Custom Data Slot: 2
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:2}`
 
+### Totems of HermitCraft
+
+The _twenty eight_ custom Totems of Undying created by
+[u/BrazenWolf_](https://www.reddit.com/r/HermitCraft/comments/xnir7p/hermit_totems_s9_members_completed/)
+of the r/HermitCraft subreddit and representing the members of
+HermitCraft Season 9 are included are included in this resource pack.
+
+Base Item: Totem of Undying
+
+Custom Data Slot: 901-928
+
+Example Command to Obtain: `/give @s minecraft:totem_of_undying{CustomModelData:927}` (for GrumBot)
+
 ### Miscellaneous
 
 #### Cursed Goomba (HIM)
@@ -224,6 +237,9 @@ instead of potions (they'll all still have their original effects, just with cus
 The Steam Deck was modeled by me, from scratch, in Blockbench.
 
 The Cursed Goomba model is courtesy of [Alesan99](https://github.com/alesan99/mari0_ae)
+
+Hermit Totem models and textures are provided courtesy of [u/BrazenWolf_](https://www.reddit.com/user/BrazenWolf_/) and
+can be [downloaded separately](https://www.reddit.com/r/HermitCraft/comments/xnir7p/hermit_totems_s9_members_completed/).
 
 The model for Wheatley comes from bunbunny via
 [sketchfab](https://sketchfab.com/3d-models/wheatley-b6f0d60656a1470e80f6d1e4f3b611ab)
