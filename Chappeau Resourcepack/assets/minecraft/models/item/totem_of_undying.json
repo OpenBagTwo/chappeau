@@ -6,12 +6,6 @@
   "overrides":[
     {
       "predicate":{
-        "custom_model_data":900
-      },
-      "model":"item/totem_of_undying/brazen_totem"
-    },
-    {
-      "predicate":{
         "custom_model_data":901
       },
       "model":"item/totem_of_undying/docm77_totem"
