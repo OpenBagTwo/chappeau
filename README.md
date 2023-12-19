@@ -144,7 +144,7 @@ Example Command to Obtain: `/give @s minecraft:totem_of_undying{CustomModelData:
   - `hypno.gcode`
   - `ijevin.gcode`
   - `impulse.gcode`
-  - `iskal.gcode`
+  - `iskall.gcode`
   - `joehills.gcode`
   - `keralis.gcode`
   - `tango.gcode`
