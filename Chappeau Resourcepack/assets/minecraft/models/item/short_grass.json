@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:block/short_grass"
+  },
+  "overrides": [
+        {"predicate": {"custom_model_data": 1}, "model": "item/custom/sphere_with_the_leaves"}
+    ]
+}
