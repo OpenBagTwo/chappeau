@@ -1,8 +1,8 @@
 # Moonescent Pearl
 
 This resourcepack is a tribute to [PearlescentMoon](https://www.youtube.com/pearlescentmoon). It replaces
-the Ender Pearl and Eye of Ender with Pearl's heads. And when used with,
-[an accompanying datapack](https://github.com/OpenBagTwo/chappeau), said items will yell out "_WEEEPTIDE!_"
+the Ender Pearl and Eye of Ender with Pearl's heads. And when used with
+[an accompanying datapack](https://github.com/OpenBagTwo/chappeau) said items will yell out "_WEEEPTIDE!_"
 when launched through the air.
 
 ## _WEEEPTIDE!_ without a datapack
