@@ -10,5 +10,6 @@ execute at @p positioned ^ ^2 ^1 if block ~ ~ ~ minecraft:brewing_stand{CustomNa
 execute at @p positioned ^ ^2 ^2 if block ~ ~ ~ minecraft:brewing_stand{CustomName:'"Chemex"'} run function chappeau:caffeinate
 
 execute at @e[type=minecraft:glow_item_frame] if block ~ ~1 ~ minecraft:hopper{CustomName:'"Enderman 3 Pro"'} run function chappeau:squiddoprint
+execute at @e[type=minecraft:glow_item_frame] if block ~ ~1 ~ minecraft:hopper{CustomName:'"Enderman 3 Pro"'} run function chappeau:legacy_print
 
 schedule function chappeau:second 1s

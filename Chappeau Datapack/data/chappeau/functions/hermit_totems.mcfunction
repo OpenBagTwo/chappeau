@@ -1,3 +1,7 @@
+# Desc: "Print" Totems of Undying into Hermit Totems
+#
+# Called by: chappeau:squiddoprint
+
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", tag:{display:{Name:'"brazen.gcode"'}}}]} run data modify entity @e[type=minecraft:glow_item_frame, distance=0, limit=1] Item set value {id:"minecraft:totem_of_undying", tag:{CustomModelData:900, display:{Name:'{"text":"Totem of BrazenWolf"}'}}, Count:1b}
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", tag:{display:{Name:'"brazen.gcode"'}}}]} run data modify block ~ ~1 ~ Items[{Slot:0b}] merge value {Count:0b}
 
