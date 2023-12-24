@@ -25,4 +25,4 @@ All sounds are taken directly from videos posted on her channel.
 
 Any code or assets in this resourcepack that is not courtesy of PearlescentMoon is licensed for use under the
 [GNU General Purpose License v3](https://www.gnu.org/licenses/gpl-3.0.en.html). If you require a more permissive
-license, please contact me by [opening a GitHub issue](https://github.com/OpenBagTwo/chappeau/issues/new).
+license, please contact me (OpenBagTwo) by [opening a GitHub issue](https://github.com/OpenBagTwo/chappeau/issues/new).
