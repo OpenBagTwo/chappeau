@@ -119,6 +119,19 @@ Custom Data Slot: 901-928
 
 Example Command to Obtain: `/give @s minecraft:totem_of_undying{CustomModelData:927}` (for GrumBot)
 
+### Hermit Eggs
+
+The twenty custom Hermit eggs created by RubikOwl and Danny for iJevin's
+[2022 Egg Hunt](https://hermitcraft.fandom.com/wiki/Hermitcraft_Easter_Egg_Hunt) are available
+both as wearable carved pumpkins and as throwable (chicken) eggs. The custom data slots are the
+same regardless.
+
+Base Item: Carved Pumpkin (wearable) _or_ Egg
+
+Custom Data Slot: 2220-2239
+
+Example Command to Obtain: `/give @s minecraft:egg{CustomModelData:2227}` (for Gregg, Grian's son)
+
 ### Miscellaneous
 
 #### Cursed Goomba (HIM)
@@ -147,7 +160,7 @@ Custom Data Slot: 1
 Command to Obtain: `/give @s minecraft:ghast_tear{CustomModelData:1}`
 
 _**Special Note**: this item is meant to complement the ghast head dropped via
-the [More Mob Heads](https://www.youtube.com/watch?v=C04fwclOdQo) and 
+the [More Mob Heads](https://www.youtube.com/watch?v=C04fwclOdQo) and
 [Armor Statues](https://www.youtube.com/watch?v=nV9-_RacnoI) datapacks
 from [Vanilla Tweaks](https://vanillatweaks.net/picker/datapacks/). Explicitly:
 after placing an armor stand, use the Statues book to give it arms, then set the
@@ -231,7 +244,6 @@ This repo also contains a **datapack** for obtaining these items in survival.
 With the datapack installed in your world, any brewing stand named "Hairo V60" or "Chemex" will brew coffee and espresso
 instead of potions (they'll all still have their original effects, just with custom names and textures).
 
-
 ## Credits and Acknowledgements
 
 The Steam Deck was modeled by me, from scratch, in Blockbench.
@@ -267,15 +279,15 @@ Many thanks to the creators of
 I was trying to suss out the correct syntax.
 
 Some other tutorials and resources that were instrumental in the development of this datapack:
-  - [How To Make CUSTOM HATS in Minecraft! Pt.1 - YouTube](https://www.youtube.com/watch?v=YBZbQGNxf18)
-  - [Bake Multiple Materials to One Texture Map (Blender Tutorial) - YouTube](https://www.youtube.com/watch?v=wG6ON8wZYLc)
-  - [How to bake textures in Blender - Artisticrender.com](https://artisticrender.com/how-to-bake-textures-in-blender/) --
+
+- [How To Make CUSTOM HATS in Minecraft! Pt.1 - YouTube](https://www.youtube.com/watch?v=YBZbQGNxf18)
+- [Bake Multiple Materials to One Texture Map (Blender Tutorial) - YouTube](https://www.youtube.com/watch?v=wG6ON8wZYLc)
+- [How to bake textures in Blender - Artisticrender.com](https://artisticrender.com/how-to-bake-textures-in-blender/) --
     an honest-to-God _written guide!_
-    
+
 ## License
 
 This resourcepack, datapack and their respecitve contents--including model assets and textures--are licensed by me
 (OpenBagTwo) under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html). If you require a more permissive
 license, I recommend making your own pack and assets using the source material, templates, programs and
 tutorials linked above.
-
