@@ -342,6 +342,9 @@ specifically the "Silence Mobs" packs.
 
 PearlescentMoon textures are all courtesy of PearlescentMoon.
 
+The Hermit egg model and textures were extracted from the official Hermitcraft Season 9 world download
+obtained from [the official website](https://hermitcraft.com/) and were originally created by Danny.
+
 Many thanks to the creators of
 [this `/give` command generator](https://www.mapmaking.fr/give1.16/) as
 I was trying to suss out the correct syntax.
@@ -358,7 +361,7 @@ Some other tutorials and resources that were instrumental in the development of 
 ## License
 
 This resourcepack, datapack and their respecitve contents--including model assets and textures--are licensed by me
-under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html). If you require a more permissive
+(OpenBagTwo) under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html). If you require a more permissive
 license, I recommend making your own pack and assets using the source material, templates, programs and
 tutorials linked above.
 
