@@ -132,34 +132,34 @@ Example Command to Obtain: `/give @s minecraft:totem_of_undying{CustomModelData:
 
 "Filenames" for 3D printing:
 
-- `docm77.gcode`
-- `grian.gcode`
-- `mumbo.gcode`
-- `etho.gcode`
 - `bdubs.gcode`
-- `xisuma.gcode`
-- `scar.gcode`
 - `beef.gcode`
 - `cleo.gcode`
 - `cubfan.gcode`
+- `docm77.gcode`
+- `etho.gcode`
+- `false.gcode`
+- `gem.gcode`
+- `grian.gcode`
 - `hypno.gcode`
 - `ijevin.gcode`
 - `impulse.gcode`
 - `iskall.gcode`
 - `joehills.gcode`
 - `keralis.gcode`
+- `mumbo.gcode`
+- `pearl.gcode`
+- `renking.gcode`
+- `scar.gcode`
+- `stress.gcode`
 - `tango.gcode`
 - `tfc.gcode`
 - `welsknight.gcode`
 - `xb.gcode`
+- `xisuma.gcode`
 - `zedaph.gcode`
-- `false.gcode`
-- `pearl.gcode`
-- `stress.gcode`
-- `gem.gcode`
-- `renking.gcode`
-- `grumbot.gcode`
 - `impulsedwarf.gcode`
+- `grumbot.gcode`
 
 ### Hermit Eggs
 
@@ -177,25 +177,25 @@ Example Command to Obtain: `/give @s minecraft:egg{CustomModelData:2227}` (for G
 "Filenames" for 3D printing:
 
 - `gold.gcode`
+- `bdubs.gcode`
+- `beef.gcode`
+- `cleo.gcode`
+- `cubfan.gcode`
 - `docm77.gcode`
-- `ijevin.gcode`
-- `joehills.gcode`
 - `false.gcode`
 - `grian.gcode`
-- `beef.gcode`
-- `xb.gcode`
-- `scar.gcode`
 - `hypno.gcode`
-- `cubfan.gcode`
-- `cleo.gcode`
-- `bdubs.gcode`
-- `pearl.gcode`
-- `zedaph.gcode`
+- `ijevin.gcode`
 - `impulse.gcode`
-- `welsknight.gcode`
-- `xisuma.gcode`
-- `stress.gcode`
 - `iskall.gcode`
+- `joehills.gcode`
+- `pearl.gcode`
+- `scar.gcode`
+- `stress.gcode`
+- `welsknight.gcode`
+- `xb.gcode`
+- `xisuma.gcode`
+- `zedaph.gcode`
 
 (these should line up with the totem filenames for the participating Hermits)
 
