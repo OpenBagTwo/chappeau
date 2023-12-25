@@ -237,7 +237,10 @@ Command to Obtain: `/give @s minecraft:poisonous_potato{CustomModelData:1}`
 
 ## Datapack (Optional)
 
-This repo also contains a **datapack** for obtaining these items in survival.
+Matching **datapacks** are available to enable obtaining these items in survival.
+
+- Use the "Chappeau Datapack" for Minecraft 1.20.3 and above
+- Use the "Chappeau Datapack (Legacy)" version for Minecraft 1.20.1 and below
 
 ### Coffee and Espresso
 
