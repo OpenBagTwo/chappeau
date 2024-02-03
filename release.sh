@@ -25,6 +25,7 @@ for pack in *; do
             (
                 cd ../"$pack"
                 for fp in $(find . -type f); do
+                    zip -d ../release/"$pack $version".zip $fp
                     zip -u ../release/"$pack $version".zip $fp
                 done
             )
