@@ -1,4 +1,8 @@
 {
     "item.minecraft.ender_pearl": "Ender Pearl",
-    "item.minecraft.ender_eye": "Eye of Ender"
+    "item.minecraft.ender_eye": "Eye of Ender",
+    "item.minecraft.lapis_lazuli": "French Blue Stuff",
+    "block.minecraft.lapis_block": "Block of French Blue Stuff",
+    "block.minecraft.lapis_ore": "French Blue Stuff Ore",
+    "block.minecraft.deepslate_lapis_ore": "Deepslate French Blue Stuff Ore"
 }
