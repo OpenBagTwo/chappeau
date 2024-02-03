@@ -1,23 +1,29 @@
 {
-	"display": {
-		"icon": {
-			"item": "minecraft:player_head",
-			"nbt": "{SkullOwner:{Id:[I;2038333874,-420717031,-1789577846,1638088555],Properties:{textures:[{Value:'e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdiZTgwMDA3YTRlNjEyYzE3MjJkZGI0NmU1Y2RmMGNmMjhiYmRhMmJhNDI2ZDBhMGY0NDlmYjE1Yjg0ZmJhYyJ9fX0='}]}}}"
-		},
-		"title": "OpenBagTwo's Custom Items",
-		"frame": "challenge",
-		"description": [
-		    "",
-		    {"text":"Adds the ability to obtain items with custom model data.","color":"gold"},
-		    {"text":"For use with OpenBagTwo's Custom Items Resourcepack ","color":"red"}
-		],
-		"background": "minecraft:textures/block/black_concrete.png",
-		"show_toast": false,
-		"announce_to_chat": false
-	},
-	"criteria": {
-		"tick": {
-			"trigger": "minecraft:tick"
-		}
-	}
+    "display": {
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:{Id:[I;2038333874,-420717031,-1789577846,1638088555],Properties:{textures:[{Value:'e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjdiZTgwMDA3YTRlNjEyYzE3MjJkZGI0NmU1Y2RmMGNmMjhiYmRhMmJhNDI2ZDBhMGY0NDlmYjE1Yjg0ZmJhYyJ9fX0='}]}}}"
+        },
+        "title": "OpenBagTwo's Custom Items",
+        "frame": "challenge",
+        "description": [
+            "",
+            {
+                "text": "Adds the ability to obtain items with custom model data.",
+                "color": "gold"
+            },
+            {
+                "text": "For use with OpenBagTwo's Custom Items Resourcepack ",
+                "color": "red"
+            }
+        ],
+        "background": "minecraft:textures/block/black_concrete.png",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
 }

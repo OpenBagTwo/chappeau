@@ -34,4 +34,3 @@ execute if block ~ ~ ~ minecraft:brewing_stand{Items:[{tag:{Potion:"minecraft:st
 
 execute if block ~ ~ ~ minecraft:brewing_stand{Items:[{tag:{Potion:"minecraft:slow_falling"}}]} run data modify block ~ ~ ~ Items[{tag:{Potion:"minecraft:slow_falling"}}] merge value {tag:{CustomModelData:1, display:{Name:'{"text":"Xejuyu (12oz)"}'}}}
 execute if block ~ ~ ~ minecraft:brewing_stand{Items:[{tag:{Potion:"minecraft:long_slow_falling"}}]} run data modify block ~ ~ ~ Items[{tag:{Potion:"minecraft:long_slow_falling"}}] merge value {tag:{CustomModelData:2, display:{Name:'{"text":"Xejuyu (16oz)"}'}}}
-

@@ -20,7 +20,7 @@ PearlescentMoon textures are all courtesy of PearlescentMoon.
 
 All sounds are taken directly from videos posted on her channel.
 
- 
+
 ## License
 
 Any code or assets in this resourcepack that is not courtesy of PearlescentMoon is licensed for use under the
