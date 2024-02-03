@@ -1,6 +1,6 @@
 {
-  "parent": "item/custom/moonescent_pearl",
-  "textures": {
-		"0": "item/scarlet_pearl"
-	}
+    "parent": "item/custom/moonescent_pearl",
+    "textures": {
+        "0": "item/scarlet_pearl"
+    }
 }
