@@ -1,7 +1,25 @@
 {
     "pack": {
-        "pack_format": 15,
-        "supported_formats": {"min_inclusive": 15, "max_inclusive": 26},
+        "pack_format": 48,
+        "supported_formats": {"min_inclusive": 15, "max_inclusive": 9999},
         "description": [{"text":"OpenBagTwo's Custom Items","color":"aqua"}]
+	},
+	"overlays": {
+	    "entries": [
+	        {
+	            "directory": "1_20_4",
+	            "formats": {
+	                "min_inclusive": 26,
+	                "max_inclusive": 47
+	            }
+	        },
+	        {
+	            "directory": "1_21",
+	            "formats": {
+	                "min_inclusive": 48,
+	                "max_inclusive": 9999
+	            }
+	        }
+	    ]
 	}
 }
