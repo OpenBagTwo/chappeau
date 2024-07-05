@@ -1,0 +1,7 @@
+{
+    "values": [
+        "chappeau:load",
+        "chappeau:tick",
+        "chappeau:second"
+    ]
+}
