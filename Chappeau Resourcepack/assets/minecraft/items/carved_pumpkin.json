@@ -1,0 +1,229 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/carved_pumpkin"
+        },
+        "entries": [
+            {
+                "threshold": 1,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/him_65x65x64"
+                }
+            },
+            {
+                "threshold": 2,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/wheatley_32x32x31"
+                }
+            },
+            {
+                "threshold": 3,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/aquarium"
+                }
+            },
+            {
+                "threshold": 4,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/morgan_freeman_core"
+                }
+            },
+            {
+                "threshold": 5,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/core_one"
+                }
+            },
+            {
+                "threshold": 6,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/fact_sphere"
+                }
+            },
+            {
+                "threshold": 7,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/rick"
+                }
+            },
+            {
+                "threshold": 1000,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/shadow_dweller"
+                }
+            },
+            {
+                "threshold": 1001,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/infinity_armor"
+                }
+            },
+            {
+                "threshold": 1002,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/infinity_helmet"
+                }
+            },
+            {
+                "threshold": 2001,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/jameson"
+                }
+            },
+            {
+                "threshold": 2220,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/gold"
+                }
+            },
+            {
+                "threshold": 2221,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/bdubs"
+                }
+            },
+            {
+                "threshold": 2222,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/beef"
+                }
+            },
+            {
+                "threshold": 2223,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/cleo"
+                }
+            },
+            {
+                "threshold": 2224,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/cub"
+                }
+            },
+            {
+                "threshold": 2225,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/docm"
+                }
+            },
+            {
+                "threshold": 2226,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/false"
+                }
+            },
+            {
+                "threshold": 2227,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/grian"
+                }
+            },
+            {
+                "threshold": 2228,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/hypno"
+                }
+            },
+            {
+                "threshold": 2229,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/impulse"
+                }
+            },
+            {
+                "threshold": 2230,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/iskall"
+                }
+            },
+            {
+                "threshold": 2231,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/jevin"
+                }
+            },
+            {
+                "threshold": 2232,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/joe"
+                }
+            },
+            {
+                "threshold": 2233,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/pearl"
+                }
+            },
+            {
+                "threshold": 2234,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/scar"
+                }
+            },
+            {
+                "threshold": 2235,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/stress"
+                }
+            },
+            {
+                "threshold": 2236,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/wels"
+                }
+            },
+            {
+                "threshold": 2237,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/xb"
+                }
+            },
+            {
+                "threshold": 2238,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/xisuma"
+                }
+            },
+            {
+                "threshold": 2239,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/zed"
+                }
+            }
+        ]
+    }
+}

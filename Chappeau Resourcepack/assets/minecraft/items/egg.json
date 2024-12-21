@@ -1,0 +1,152 @@
+{
+    "model": {
+        "type": "range_dispatch",
+        "property": "custom_model_data",
+        "fallback": {
+            "type": "model",
+            "model": "item/egg"
+        },
+        "entries": [
+            {
+                "threshold": 2220,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/gold"
+                }
+            },
+            {
+                "threshold": 2221,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/bdubs"
+                }
+            },
+            {
+                "threshold": 2222,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/beef"
+                }
+            },
+            {
+                "threshold": 2223,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/cleo"
+                }
+            },
+            {
+                "threshold": 2224,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/cub"
+                }
+            },
+            {
+                "threshold": 2225,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/docm"
+                }
+            },
+            {
+                "threshold": 2226,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/false"
+                }
+            },
+            {
+                "threshold": 2227,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/grian"
+                }
+            },
+            {
+                "threshold": 2228,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/hypno"
+                }
+            },
+            {
+                "threshold": 2229,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/impulse"
+                }
+            },
+            {
+                "threshold": 2230,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/iskall"
+                }
+            },
+            {
+                "threshold": 2231,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/jevin"
+                }
+            },
+            {
+                "threshold": 2232,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/joe"
+                }
+            },
+            {
+                "threshold": 2233,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/pearl"
+                }
+            },
+            {
+                "threshold": 2234,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/scar"
+                }
+            },
+            {
+                "threshold": 2235,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/stress"
+                }
+            },
+            {
+                "threshold": 2236,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/wels"
+                }
+            },
+            {
+                "threshold": 2237,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/xb"
+                }
+            },
+            {
+                "threshold": 2238,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/xisuma"
+                }
+            },
+            {
+                "threshold": 2239,
+                "model": {
+                    "type": "model",
+                    "model": "item/egg/zed"
+                }
+            }
+        ]
+    }
+}
