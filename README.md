@@ -21,6 +21,21 @@ main hand / off-hand (you'll first need to use commands or the Armor Statues boo
 stand with arms). From there, armor statues can also be turned invisible using commands or the Armor
 Statues book. Finally, any items that replace carved pumpkins can be **dispensed onto a mob's head**.
 
+***Note** that these commands are all for Minecraft 1.20.4 and below. The syntax is:*
+
+```mcfunction
+/give @s someitem[custom_model_data=somenumber]
+```
+*for Minecraft 1.20.5-1.21.3*
+
+*and*
+
+```mcfunction
+/give @s someitem[custom_model_data={floats:[somenumber]}]
+```
+*for Minecraft 1.21.4+*
+
+
 ## Available Items
 
 ### Caffeinated Beverages
@@ -144,7 +159,6 @@ Example Command to Obtain: `/give @s minecraft:totem_of_undying{CustomModelData:
 - `hypno.gcode`
 - `ijevin.gcode`
 - `impulse.gcode`
-- `iskall.gcode`
 - `joehills.gcode`
 - `keralis.gcode`
 - `mumbo.gcode`
@@ -187,7 +201,6 @@ Example Command to Obtain: `/give @s minecraft:egg{CustomModelData:2227}` (for G
 - `hypno.gcode`
 - `ijevin.gcode`
 - `impulse.gcode`
-- `iskall.gcode`
 - `joehills.gcode`
 - `pearl.gcode`
 - `scar.gcode`
@@ -260,6 +273,16 @@ Custom Data Slot: 1002
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1002}`
 
 "Filename" for 3D printing: `infinity_armor_helmet.gcode`
+
+#### Andorian Wig
+
+Base Item: Carved Pumpkin (wearable)
+
+Custom Data Slot: 1701
+
+Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1701}`
+
+"Filename" for 3D printing: `andorian.gcode`
 
 #### Jameson-Type Cyborg
 

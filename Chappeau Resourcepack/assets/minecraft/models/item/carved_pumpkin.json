@@ -63,6 +63,12 @@
         },
         {
             "predicate": {
+                "custom_model_data": 1701
+            },
+            "model": "item/custom/andorian"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 2001
             },
             "model": "item/custom/jameson"

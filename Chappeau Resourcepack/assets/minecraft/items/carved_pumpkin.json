@@ -78,6 +78,13 @@
                 }
             },
             {
+                "threshold": 1701,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/andorian"
+                }
+            },
+            {
                 "threshold": 2001,
                 "model": {
                     "type": "model",
