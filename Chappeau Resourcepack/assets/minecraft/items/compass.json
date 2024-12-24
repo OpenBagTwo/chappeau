@@ -1,0 +1,2020 @@
+{
+    "model": {
+        "component": "minecraft:lodestone_tracker",
+        "on_false": {
+            "cases": [
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_16",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_16",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 0.0
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_17",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_17",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 0.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_18",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_18",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 1.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_19",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_19",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 2.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_20",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_20",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 3.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_21",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_21",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 4.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_22",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_22",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 5.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_23",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_23",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 6.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_24",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_24",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 7.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_25",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_25",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 8.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_26",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_26",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 9.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_27",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_27",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 10.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_28",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_28",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 11.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_29",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_29",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 12.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_30",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_30",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 13.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_31",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_31",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 14.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_00",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_00",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 15.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_01",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_01",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 16.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_02",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_02",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 17.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_03",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_03",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 18.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_04",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_04",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 19.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_05",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_05",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 20.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_06",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_06",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 21.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_07",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_07",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 22.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_08",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_08",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 23.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_09",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_09",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 24.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_10",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_10",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 25.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_11",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_11",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 26.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_12",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_12",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 27.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_13",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_13",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 28.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_14",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_14",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 29.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_15",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_15",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 30.5
+                            },
+                            {
+                                "model": {
+                                    "entries": [
+                                        {
+                                            "model": {
+                                                "model": "item/tricorder/tricorder_16",
+                                                "type": "model"
+                                            },
+                                            "threshold": 1701
+                                        }
+                                    ],
+                                    "fallback": {
+                                        "model": "item/compass_16",
+                                        "type": "model"
+                                    },
+                                    "property": "custom_model_data",
+                                    "type": "range_dispatch"
+                                },
+                                "threshold": 31.5
+                            }
+                        ],
+                        "property": "minecraft:compass",
+                        "scale": 32.0,
+                        "target": "spawn",
+                        "type": "minecraft:range_dispatch"
+                    },
+                    "when": "minecraft:overworld"
+                }
+            ],
+            "fallback": {
+                "entries": [
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_16",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_16",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 0.0
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_17",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_17",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 0.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_18",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_18",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 1.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_19",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_19",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 2.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_20",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_20",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 3.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_21",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_21",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 4.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_22",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_22",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 5.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_23",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_23",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 6.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_24",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_24",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 7.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_25",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_25",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 8.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_26",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_26",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 9.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_27",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_27",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 10.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_28",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_28",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 11.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_29",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_29",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 12.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_30",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_30",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 13.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_31",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_31",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 14.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_00",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_00",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 15.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_01",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_01",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 16.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_02",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_02",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 17.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_03",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_03",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 18.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_04",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_04",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 19.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_05",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_05",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 20.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_06",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_06",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 21.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_07",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_07",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 22.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_08",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_08",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 23.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_09",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_09",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 24.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_10",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_10",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 25.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_11",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_11",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 26.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_12",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_12",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 27.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_13",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_13",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 28.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_14",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_14",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 29.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_15",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_15",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 30.5
+                    },
+                    {
+                        "model": {
+                            "entries": [
+                                {
+                                    "model": {
+                                        "model": "item/tricorder/tricorder_16",
+                                        "type": "model"
+                                    },
+                                    "threshold": 1701
+                                }
+                            ],
+                            "fallback": {
+                                "model": "item/compass_16",
+                                "type": "model"
+                            },
+                            "property": "custom_model_data",
+                            "type": "range_dispatch"
+                        },
+                        "threshold": 31.5
+                    }
+                ],
+                "property": "minecraft:compass",
+                "scale": 32.0,
+                "target": "none",
+                "type": "minecraft:range_dispatch"
+            },
+            "property": "minecraft:context_dimension",
+            "type": "minecraft:select"
+        },
+        "on_true": {
+            "entries": [
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_16",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_16",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 0.0
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_17",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_17",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 0.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_18",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_18",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 1.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_19",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_19",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 2.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_20",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_20",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 3.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_21",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_21",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 4.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_22",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_22",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 5.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_23",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_23",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 6.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_24",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_24",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 7.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_25",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_25",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 8.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_26",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_26",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 9.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_27",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_27",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 10.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_28",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_28",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 11.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_29",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_29",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 12.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_30",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_30",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 13.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_31",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_31",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 14.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_00",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_00",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 15.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_01",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_01",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 16.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_02",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_02",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 17.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_03",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_03",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 18.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_04",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_04",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 19.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_05",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_05",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 20.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_06",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_06",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 21.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_07",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_07",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 22.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_08",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_08",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 23.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_09",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_09",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 24.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_10",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_10",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 25.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_11",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_11",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 26.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_12",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_12",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 27.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_13",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_13",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 28.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_14",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_14",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 29.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_15",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_15",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 30.5
+                },
+                {
+                    "model": {
+                        "entries": [
+                            {
+                                "model": {
+                                    "model": "item/tricorder/tricorder_16",
+                                    "type": "model"
+                                },
+                                "threshold": 1701
+                            }
+                        ],
+                        "fallback": {
+                            "model": "item/compass_16",
+                            "type": "model"
+                        },
+                        "property": "custom_model_data",
+                        "type": "range_dispatch"
+                    },
+                    "threshold": 31.5
+                }
+            ],
+            "property": "minecraft:compass",
+            "scale": 32.0,
+            "target": "lodestone",
+            "type": "minecraft:range_dispatch"
+        },
+        "property": "minecraft:has_component",
+        "type": "minecraft:condition"
+    }
+}
