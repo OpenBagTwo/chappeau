@@ -1,16 +1,15 @@
 # OpenBagTwo's Custom Items
 
-This is a **resourcepack** that adds custom items to the game without replacing the original items.
+This repo contains a **resourcepack** that adds custom items to the game without replacing the original items.
 
-It requires no mods, and use of any datapacks is purely optional (an accompanying datapack can be found
-[here](https://github.com/OpenBagTwo/chappeau) that will allow you to
+It requires no mods, and use of any datapacks is purely optional (the datapack in this repo allows you to
 obtain items in survival / without commands, and I strongly recommend
 [the Armor Statues Datapack](https://vanillatweaks.net/picker/datapacks/)
 for infinite posability and placement possibilities).
-As such, it should be broadly compatible across recent versions of Java minecraft.
+As such, it should be broadly compatible across recent versions of Java Minecraft.
 
-The limitation is that **these are items** and as such, if you place them, they will lose all their NBT
-data and return to their default appearances.
+The limitation is that **these are items** and as such, if you place them as blocks, they will lose all
+their NBT data and return to their default appearances.
 
 The sections below list the commands to give yourself each custom item.
 
@@ -21,6 +20,21 @@ your item to an armor stand**, either to wear (if the item is a carved pumpkin) 
 main hand / off-hand (you'll first need to use commands or the Armor Statues book to get an armor
 stand with arms). From there, armor statues can also be turned invisible using commands or the Armor
 Statues book. Finally, any items that replace carved pumpkins can be **dispensed onto a mob's head**.
+
+***Note** that these commands are all for Minecraft 1.20.4 and below. The syntax is:*
+
+```mcfunction
+/give @s someitem[custom_model_data=somenumber]
+```
+*for Minecraft 1.20.5-1.21.3*
+
+*and*
+
+```mcfunction
+/give @s someitem[custom_model_data={floats:[somenumber]}]
+```
+*for Minecraft 1.21.4+*
+
 
 ## Available Items
 
@@ -66,6 +80,8 @@ Custom Data Slot: 3
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:3}`
 
+"Filename" for 3D printing: `aquarium_core.gcode`
+
 #### Fact Sphere
 
 Base Item: Carved Pumpkin (wearable)
@@ -73,6 +89,8 @@ Base Item: Carved Pumpkin (wearable)
 Custom Data Slot: 6
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:6}`
+
+"Filename" for 3D printing: `fact_sphere.gcode`
 
 #### Morgan Freeman Core
 
@@ -82,6 +100,8 @@ Custom Data Slot: 4
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:4}`
 
+"Filename" for 3D printing: `morgan_freeman_core.gcode`
+
 #### Rick (the Advenute Core)
 
 Base Item: Carved Pumpkin (wearable)
@@ -89,6 +109,8 @@ Base Item: Carved Pumpkin (wearable)
 Custom Data Slot: 7
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:7}`
+
+"Filename" for 3D printing: `rick.gcode`
 
 #### Space Core
 
@@ -98,6 +120,8 @@ Custom Data Slot: 5
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:5}`
 
+"Filename" for 3D printing: `space_core.gcode`
+
 #### Wheatley
 
 Base Item: Carved Pumpkin (wearable)
@@ -105,6 +129,8 @@ Base Item: Carved Pumpkin (wearable)
 Custom Data Slot: 2
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:2}`
+
+"Filename" for 3D printing: `wheatley.gcode`
 
 ### Totems of HermitCraft
 
@@ -119,6 +145,36 @@ Custom Data Slot: 901-928
 
 Example Command to Obtain: `/give @s minecraft:totem_of_undying{CustomModelData:927}` (for GrumBot)
 
+"Filenames" for 3D printing:
+
+- `bdubs.gcode`
+- `beef.gcode`
+- `cleo.gcode`
+- `cubfan.gcode`
+- `docm77.gcode`
+- `etho.gcode`
+- `false.gcode`
+- `gem.gcode`
+- `grian.gcode`
+- `hypno.gcode`
+- `ijevin.gcode`
+- `impulse.gcode`
+- `joehills.gcode`
+- `keralis.gcode`
+- `mumbo.gcode`
+- `pearl.gcode`
+- `renking.gcode`
+- `scar.gcode`
+- `stress.gcode`
+- `tango.gcode`
+- `tfc.gcode`
+- `welsknight.gcode`
+- `xb.gcode`
+- `xisuma.gcode`
+- `zedaph.gcode`
+- `impulsedwarf.gcode`
+- `grumbot.gcode`
+
 ### Hermit Eggs
 
 The twenty custom Hermit eggs created by RubikOwl and Danny for iJevin's
@@ -132,6 +188,30 @@ Custom Data Slot: 2220-2239
 
 Example Command to Obtain: `/give @s minecraft:egg{CustomModelData:2227}` (for Gregg, Grian's son)
 
+"Filenames" for 3D printing:
+
+- `gold.gcode`
+- `bdubs.gcode`
+- `beef.gcode`
+- `cleo.gcode`
+- `cubfan.gcode`
+- `docm77.gcode`
+- `false.gcode`
+- `grian.gcode`
+- `hypno.gcode`
+- `ijevin.gcode`
+- `impulse.gcode`
+- `joehills.gcode`
+- `pearl.gcode`
+- `scar.gcode`
+- `stress.gcode`
+- `welsknight.gcode`
+- `xb.gcode`
+- `xisuma.gcode`
+- `zedaph.gcode`
+
+(these should line up with the totem filenames for the participating Hermits)
+
 ### Miscellaneous
 
 #### Cursed Goomba (HIM)
@@ -142,6 +222,8 @@ Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1}`
 
+"Filename" for 3D printing: `him.gcode`
+
 #### Double-Pointed Needles
 
 Base Item: Stone or Iron Sword
@@ -151,6 +233,8 @@ Custom Data Slot: 1
 Command to Obtain: `/give @s minecraft:stone_sword{CustomModelData:1}`
 (or substitute `iron_sword`)
 
+"Filename" for 3D printing: `dpn.gcode`
+
 #### Ghast Legs
 
 Base Item: Ghast Tear
@@ -158,6 +242,8 @@ Base Item: Ghast Tear
 Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:ghast_tear{CustomModelData:1}`
+
+"Filename" for 3D Printing: `ghast-legs.gcode`
 
 _**Special Note**: this item is meant to complement the ghast head dropped via
 the [More Mob Heads](https://www.youtube.com/watch?v=C04fwclOdQo) and
@@ -176,6 +262,8 @@ Custom Data Slot: 1001
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1001}`
 
+"Filename" for 3D printing: `infinity_armor_statue.gcode`
+
 #### Infinity Armor (Helmet Only)
 
 Base Item: Carved Pumpkin (wearable)
@@ -183,6 +271,18 @@ Base Item: Carved Pumpkin (wearable)
 Custom Data Slot: 1002
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1002}`
+
+"Filename" for 3D printing: `infinity_armor_helmet.gcode`
+
+#### Andorian Wig
+
+Base Item: Carved Pumpkin (wearable)
+
+Custom Data Slot: 1701
+
+Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1701}`
+
+"Filename" for 3D printing: `andorian.gcode`
 
 #### Jameson-Type Cyborg
 
@@ -195,6 +295,8 @@ Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:2001}`
 _**Note**: when placed on the head of an player, mob or item stand, this model will render
 on the ground **next to** the entity. This is intentional._
 
+"Filename" for 3D printing: `jameson.gcode`
+
 #### Little Cursed Goomba (Mini-Him)
 
 Base Item: Brown Mushroom
@@ -202,6 +304,8 @@ Base Item: Brown Mushroom
 Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:brown_mushroom{CustomModelData:1}`
+
+"Filename" for 3D printing: `mini-him.gcode`
 
 #### [Moonescent Pearl](https://www.youtube.com/pearlescentmoon)
 
@@ -211,6 +315,10 @@ Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:ender_pearl{CustomModelData:1}`
 
+"Filename" for 3D printing: `moonescent_pearl.gcode`
+
+_**Bonus**: use an Eye of Ender instead to recieve a ["5am Pearl"](https://www.youtube.com/watch?v=PvT7LQcJ4ik&list=PLxAyA97FNoKIvnWusS08z8e-TJS7F0ZSW)_
+
 #### Oddish
 
 Base Item: Grass
@@ -218,6 +326,12 @@ Base Item: Grass
 Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:grass{CustomModelData:1}`
+
+"Filename" for 3D printing: `oddish.gcode`
+
+_**Bonus**: use seagrass instead of regular grass and you'll get a yellow oddish, which is
+part of OpenBagTwo family lore. Put in a ~~radish~~ beetroot instead, and you'll get a red variant
+dubbed an "Ancestor."_
 
 #### Shadow Dweller (OC)
 
@@ -227,6 +341,8 @@ Custom Data Slot: 1000
 
 Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1000}`
 
+"Filename" for 3D printing: `shadow_dweller_mask.gcode`
+
 #### Steam Deck
 
 Base Item: Poisonous Potato (please do not eat)
@@ -235,17 +351,18 @@ Custom Data Slot: 1
 
 Command to Obtain: `/give @s minecraft:poisonous_potato{CustomModelData:1}`
 
-## Datapack (Optional)
+"Filename" for 3D printing: `steam_deck.gcode`
 
-Matching **datapacks** are available to enable obtaining these items in survival.
+#### Tricorder
 
-- Use the "Chappeau Datapack" for Minecraft 1.20.3 and above
-- Use the "Chappeau Datapack (Legacy)" version for Minecraft 1.20.1 and below
+Base Item: Compass
 
-### Coffee and Espresso
+Custom Data Slot: 1701
 
-With the datapack installed in your world, any brewing stand named "Hairo V60" or "Chemex" will brew coffee and espresso
-instead of potions (they'll all still have their original effects, just with custom names and textures).
+Command to Obtain: `/give @s minecraft:compass{CustomModelData:1701}`
+
+"Filename" for 3D printing: `tr580.gcode`
+
 
 ## Credits and Acknowledgements
 
@@ -272,6 +389,9 @@ The resource pack structure was modeled after a template created by
 [CraisinLord](https://www.youtube.com/channel/UC30GyQ6HFJuZRJdFMiy8N-A)
 and demoed in [this video](https://www.youtube.com/watch?v=dtcZhtZ0PqI).
 
+The data pack structure takes cues from [VanillaTweaks]((https://vanillatweaks.net/picker/datapacks/)),
+specifically the "Silence Mobs" packs.
+
 PearlescentMoon textures are all courtesy of PearlescentMoon.
 
 The Hermit egg model and textures were extracted from the official Hermitcraft Season 9 world download
@@ -287,6 +407,9 @@ Some other tutorials and resources that were instrumental in the development of 
 - [Bake Multiple Materials to One Texture Map (Blender Tutorial) - YouTube](https://www.youtube.com/watch?v=wG6ON8wZYLc)
 - [How to bake textures in Blender - Artisticrender.com](https://artisticrender.com/how-to-bake-textures-in-blender/) --
     an honest-to-God _written guide!_
+- [This Minecraft Bug Report](https://bugs.mojang.com/browse/MC-141876) for explaining to me why my commands were deleting
+    the first potion in the brewing stand ("works as intended" lol)
+- [This thread on minecraftforum.net](https://www.minecraftforum.net/forums/minecraft-java-edition/redstone-discussion-and/commands-command-blocks-and/2982699-how-to-execute-if-chest-has-a-item-in-it) for providing me with a workaround to the above not-a-bug.
 
 ## License
 

@@ -353,6 +353,16 @@ Command to Obtain: `/give @s minecraft:poisonous_potato{CustomModelData:1}`
 
 "Filename" for 3D printing: `steam_deck.gcode`
 
+#### Tricorder
+
+Base Item: Compass
+
+Custom Data Slot: 1701
+
+Command to Obtain: `/give @s minecraft:compass{CustomModelData:1701}`
+
+"Filename" for 3D printing: `tr580.gcode`
+
 ## Datapack (Optional)
 
 This repo also contains a **datapack** for obtaining some of these items in survival.
