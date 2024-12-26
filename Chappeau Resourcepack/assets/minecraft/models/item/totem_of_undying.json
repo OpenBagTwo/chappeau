@@ -84,6 +84,12 @@
         },
         {
             "predicate": {
+                "custom_model_data": 914
+            },
+            "model": "item/totem_of_undying"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 915
             },
             "model": "item/totem_of_undying/joehills_totem"
