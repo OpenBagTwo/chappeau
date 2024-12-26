@@ -175,7 +175,6 @@ As not all Hermits participated in the egg hunt, consult the following table reg
 | _Gold Egg_ | `gold.gcode` | | 2220 |
 | _Grumbot_ | `grumbot.gcode` | 927 | |
 | _Imli_ | `impulsedwarf.gcode` | 928 | |
-| _BrazenWolf_ | `brazen.gcode` | 900 | |
 
 
 Example Commands to Obtain:
