@@ -1,8 +1,8 @@
 {
     "credit": "Made with Blockbench, Made by _BrazenWolf_",
     "textures": {
-        "0": "item/totem_of_undying/totem_of_iskal",
-        "particle": "item/totem_of_undying/totem_of_iskal"
+        "0": "item/totem_of_undying/totem_of_beans",
+        "particle": "item/totem_of_undying/totem_of_beans"
     },
     "elements": [
         {

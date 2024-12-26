@@ -66,12 +66,6 @@
         },
         {
             "predicate": {
-                "custom_model_data": 2230
-            },
-            "model": "item/egg/iskall"
-        },
-        {
-            "predicate": {
                 "custom_model_data": 2231
             },
             "model": "item/egg/jevin"

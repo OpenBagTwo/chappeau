@@ -102,7 +102,7 @@
                 "threshold": 914,
                 "model": {
                     "type": "model",
-                    "model": "item/totem_of_undying/iskall_totem"
+                    "model": "item/totem_of_undying"
                 }
             },
             {
@@ -201,6 +201,20 @@
                 "model": {
                     "type": "model",
                     "model": "item/totem_of_undying/impulsedwarf_totem"
+                }
+            },
+            {
+                "threshold": 929,
+                "model": {
+                    "type": "model",
+                    "model": "item/totem_of_undying/beans_totem"
+                }
+            },
+            {
+                "threshold": 930,
+                "model": {
+                    "type": "model",
+                    "model": "item/totem_of_undying/skizz_totem"
                 }
             }
         ]

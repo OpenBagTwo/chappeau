@@ -42,10 +42,6 @@ execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", 
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"impulse.gcode"'}}]} run item replace entity @n[type=minecraft:glow_item_frame] container.0 from block ~ ~1 ~ container.0
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"impulse.gcode"'}}]} run item replace block ~ ~1 ~ container.0 with minecraft:air
 
-execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"iskall.gcode"'}}]} run data modify block ~ ~1 ~ Items[{Slot:0b}] merge value {components:{"minecraft:custom_model_data":2230, "minecraft:custom_name":'"Slimy Egg"'}}
-execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"iskall.gcode"'}}]} run item replace entity @n[type=minecraft:glow_item_frame] container.0 from block ~ ~1 ~ container.0
-execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"iskall.gcode"'}}]} run item replace block ~ ~1 ~ container.0 with minecraft:air
-
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"ijevin.gcode"'}}]} run data modify block ~ ~1 ~ Items[{Slot:0b}] merge value {components:{"minecraft:custom_model_data":2231, "minecraft:custom_name":'"Jevin Egg"'}}
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"ijevin.gcode"'}}]} run item replace entity @n[type=minecraft:glow_item_frame] container.0 from block ~ ~1 ~ container.0
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"ijevin.gcode"'}}]} run item replace block ~ ~1 ~ container.0 with minecraft:air

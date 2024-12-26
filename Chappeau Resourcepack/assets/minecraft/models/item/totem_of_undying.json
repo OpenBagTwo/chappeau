@@ -84,12 +84,6 @@
         },
         {
             "predicate": {
-                "custom_model_data": 914
-            },
-            "model": "item/totem_of_undying/iskall_totem"
-        },
-        {
-            "predicate": {
                 "custom_model_data": 915
             },
             "model": "item/totem_of_undying/joehills_totem"
@@ -171,6 +165,18 @@
                 "custom_model_data": 928
             },
             "model": "item/totem_of_undying/impulsedwarf_totem"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 929
+            },
+            "model": "item/totem_of_undying/beans_totem"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 930
+            },
+            "model": "item/totem_of_undying/skizz_totem"
         }
     ]
 }

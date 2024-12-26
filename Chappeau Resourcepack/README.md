@@ -132,85 +132,57 @@ Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:2}`
 
 "Filename" for 3D printing: `wheatley.gcode`
 
-### Totems of HermitCraft
+### Hermit Totems and Eggs
 
-The _twenty eight_ custom Totems of Undying created by
+The custom Totems of Undying created by
 [u/BrazenWolf_](https://www.reddit.com/r/HermitCraft/comments/xnir7p/hermit_totems_s9_members_completed/)
-of the r/HermitCraft subreddit and representing the members of
-HermitCraft Season 9 are included are included in this resource pack.
+of the r/HermitCraft subreddit are included are included in this resource pack, along with the custom Hermit eggs
+created by RubikOwl and Danny for iJevin's
+[2022 Egg Hunt](https://hermitcraft.fandom.com/wiki/Hermitcraft_Easter_Egg_Hunt). These models are available
+both as wearable carved pumpkins and as throwable eggs.
 
-Base Item: Totem of Undying
+As not all Hermits participated in the egg hunt, consult the following table regarding availability.
 
-Custom Data Slot: 901-928
+| Hermit | "Filename" | Totem Number | Egg Number |
+| --- | --- | --- | --- |
+| BDoubleO | `bdubs.gcode` | 905 | 2221 |
+| Cubfan135 | `cubfan.gcode` | 910 | 2224 |
+| Docm77 | `docm77.gcode` | 901 | 2225 |
+| Etho | `etho.gcode` | 904 | |
+| False | `false.gcode` | 922 | 2226 |
+| GeminiTay | `gem.gcode` | 925 | |
+| Grian | `grian.gcode` | 902 | 2227 |
+| Hypno | `hypno.gcode` | 911 | 2228 |
+| ImpulseSV | `impulse.gcode` | 913 | 2229 |
+| Jevin | `ijevin.gcode` | 912 | 2231 |
+| joehills | `joehills.gcode` | 915 | 2232 |
+| Keralis | `keralis.gcode` | 916 | |
+| MumboJumbo | `mumbo.gcode` | 902 | |
+| PearlescentMoon | `pearl.gcode` | 923 | 2233 |
+| rendog | `renking.gcode` | 926 | |
+| Scar | `scar.gcode` | 907 | 2234 |
+| Skizzleman | `skizz.gcode` | 930 | |
+| Smallishbeans | `joel.gcode` | 929 | |
+| Stress | `stress.gcode` | 924 | 2235 |
+| Tango Tek | `tango.gcode` | 917 | |
+| TinfoilChef | `tfc.gcode` | 918 | |
+| VintageBeef | `beef.gcode`  | 908 | 2222 |
+| Welsknight | `welsknight.gcode` | 919 | 2236 |
+| xBCrafted | `xb.gcode` | 920 | 2237 |
+| Xisuma | `xisuma.gcode` | 906 | 2238 |
+| ZedaphPlays | `zedaph.gcode` | 921 | 2239 |
+| ZombieCleo | `cleo.gcode`  | 909 | 2223 |
+| _Gold Egg_ | `gold.gcode` | | 2220 |
+| _Grumbot_ | `grumbot.gcode` | 927 | |
+| _Imli_ | `impulsedwarf.gcode` | 928 | |
+| _BrazenWolf_ | `brazen.gcode` | 900 | |
 
-Example Command to Obtain: `/give @s minecraft:totem_of_undying{CustomModelData:927}` (for GrumBot)
 
-"Filenames" for 3D printing:
+Example Commands to Obtain:
+ - `/give @s minecraft:totem_of_undying{CustomModelData:927}` (for GrumBot)
+ - `/give @s minecraft:egg{CustomModelData:2231}` (for Jevin egg)
+ - `/give @s minecraft:carved_pumpkin{CustomModelData:2227}` (for Gregg, Grian's son)
 
-- `bdubs.gcode`
-- `beef.gcode`
-- `cleo.gcode`
-- `cubfan.gcode`
-- `docm77.gcode`
-- `etho.gcode`
-- `false.gcode`
-- `gem.gcode`
-- `grian.gcode`
-- `hypno.gcode`
-- `ijevin.gcode`
-- `impulse.gcode`
-- `joehills.gcode`
-- `keralis.gcode`
-- `mumbo.gcode`
-- `pearl.gcode`
-- `renking.gcode`
-- `scar.gcode`
-- `stress.gcode`
-- `tango.gcode`
-- `tfc.gcode`
-- `welsknight.gcode`
-- `xb.gcode`
-- `xisuma.gcode`
-- `zedaph.gcode`
-- `impulsedwarf.gcode`
-- `grumbot.gcode`
-
-### Hermit Eggs
-
-The twenty custom Hermit eggs created by RubikOwl and Danny for iJevin's
-[2022 Egg Hunt](https://hermitcraft.fandom.com/wiki/Hermitcraft_Easter_Egg_Hunt) are available
-both as wearable carved pumpkins and as throwable (chicken) eggs. The custom data slots are the
-same regardless.
-
-Base Item: Carved Pumpkin (wearable) _or_ Egg
-
-Custom Data Slot: 2220-2239
-
-Example Command to Obtain: `/give @s minecraft:egg{CustomModelData:2227}` (for Gregg, Grian's son)
-
-"Filenames" for 3D printing:
-
-- `gold.gcode`
-- `bdubs.gcode`
-- `beef.gcode`
-- `cleo.gcode`
-- `cubfan.gcode`
-- `docm77.gcode`
-- `false.gcode`
-- `grian.gcode`
-- `hypno.gcode`
-- `ijevin.gcode`
-- `impulse.gcode`
-- `joehills.gcode`
-- `pearl.gcode`
-- `scar.gcode`
-- `stress.gcode`
-- `welsknight.gcode`
-- `xb.gcode`
-- `xisuma.gcode`
-- `zedaph.gcode`
-
-(these should line up with the totem filenames for the participating Hermits)
 
 ### Miscellaneous
 

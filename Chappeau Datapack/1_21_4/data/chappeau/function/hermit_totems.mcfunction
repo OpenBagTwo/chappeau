@@ -2,6 +2,10 @@
 #
 # Called by: chappeau:squiddoprint
 
+execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"brazen.gcode"'}}]} run data modify block ~ ~1 ~ Items[{Slot:0b}] merge value {components:{"minecraft:custom_model_data":{"floats":[900]}, "minecraft:custom_name":'"Totem of BrazenWolf"'}}
+execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"brazen.gcode"'}}]} run item replace entity @n[type=minecraft:glow_item_frame] container.0 from block ~ ~1 ~ container.0
+execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"brazen.gcode"'}}]} run item replace block ~ ~1 ~ container.0 with minecraft:air
+
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"docm77.gcode"'}}]} run data modify block ~ ~1 ~ Items[{Slot:0b}] merge value {components:{"minecraft:custom_model_data":{"floats":[901]}, "minecraft:custom_name":'"Totem of the GOAT"'}}
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"docm77.gcode"'}}]} run item replace entity @n[type=minecraft:glow_item_frame] container.0 from block ~ ~1 ~ container.0
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"docm77.gcode"'}}]} run item replace block ~ ~1 ~ container.0 with minecraft:air
@@ -109,3 +113,11 @@ execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", 
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"impulsedwarf.gcode"'}}]} run data modify block ~ ~1 ~ Items[{Slot:0b}] merge value {components:{"minecraft:custom_model_data":{"floats":[928]}, "minecraft:custom_name":'"Totem of Imli"'}}
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"impulsedwarf.gcode"'}}]} run item replace entity @n[type=minecraft:glow_item_frame] container.0 from block ~ ~1 ~ container.0
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"impulsedwarf.gcode"'}}]} run item replace block ~ ~1 ~ container.0 with minecraft:air
+
+execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"joel.gcode"'}}]} run data modify block ~ ~1 ~ Items[{Slot:0b}] merge value {components:{"minecraft:custom_model_data":{"floats":[929]}, "minecraft:custom_name":'"Totem of Beans"'}}
+execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"joel.gcode"'}}]} run item replace entity @n[type=minecraft:glow_item_frame] container.0 from block ~ ~1 ~ container.0
+execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"joel.gcode"'}}]} run item replace block ~ ~1 ~ container.0 with minecraft:air
+
+execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"skizz.gcode"'}}]} run data modify block ~ ~1 ~ Items[{Slot:0b}] merge value {components:{"minecraft:custom_model_data":{"floats":[930]}, "minecraft:custom_name":'"Totem of Skizz"'}}
+execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"skizz.gcode"'}}]} run item replace entity @n[type=minecraft:glow_item_frame] container.0 from block ~ ~1 ~ container.0
+execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"skizz.gcode"'}}]} run item replace block ~ ~1 ~ container.0 with minecraft:air

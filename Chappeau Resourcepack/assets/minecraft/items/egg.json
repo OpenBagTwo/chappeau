@@ -81,7 +81,7 @@
                 "threshold": 2230,
                 "model": {
                     "type": "model",
-                    "model": "item/egg/iskall"
+                    "model": "item/egg"
                 }
             },
             {
