@@ -102,6 +102,10 @@ execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:0b, id:"minecraft:iron_swo
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:0b, id:"minecraft:iron_sword"}, {Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"dpn.gcode"'}}]} run item replace entity @n[type=minecraft:glow_item_frame] container.0 from block ~ ~1 ~ container.0
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:0b, id:"minecraft:iron_sword"}, {Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"dpn.gcode"'}}]} run item replace block ~ ~1 ~ container.0 with minecraft:air
 
+execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:0b, id:"minecraft:writable_book"}, {Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"padd.gcode"'}}]} run data modify block ~ ~1 ~ Items[{Slot:0b}] merge value {components:{"minecraft:custom_model_data":1701, "minecraft:custom_name":'"PADD"'}}
+execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:0b, id:"minecraft:writable_book"}, {Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"padd.gcode"'}}]} run item replace entity @n[type=minecraft:glow_item_frame] container.0 from block ~ ~1 ~ container.0
+execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:0b, id:"minecraft:writable_book"}, {Slot:1b, id:"minecraft:paper", components:{"minecraft:custom_name": '"padd.gcode"'}}]} run item replace block ~ ~1 ~ container.0 with minecraft:air
+
 
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:0b, id:"minecraft:totem_of_undying"}, {Slot:1b, id:"minecraft:paper"}]} run function chappeau:hermit_totems
 
