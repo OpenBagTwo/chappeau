@@ -255,6 +255,16 @@ Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1701}`
 
 "Filename" for 3D printing: `andorian.gcode`
 
+#### Vulcan Ears
+
+Base Item: Carved Pumpkin (wearable)
+
+Custom Data Slot: 1702
+
+Command to Obtain: `/give @s minecraft:carved_pumpkin{CustomModelData:1702}`
+
+"Filename" for 3D printing: `vulcan.gcode`
+
 #### Jameson-Type Cyborg
 
 Base Item: Carved Pumpkin (wearable)

@@ -69,6 +69,12 @@
         },
         {
             "predicate": {
+                "custom_model_data": 1702
+            },
+            "model": "item/custom/vulcan_ears"
+        },
+        {
+            "predicate": {
                 "custom_model_data": 2001
             },
             "model": "item/custom/jameson"

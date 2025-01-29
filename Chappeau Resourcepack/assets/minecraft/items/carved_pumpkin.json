@@ -85,6 +85,13 @@
                 }
             },
             {
+                "threshold": 1702,
+                "model": {
+                    "type": "model",
+                    "model": "item/custom/vulcan_ears"
+                }
+            },
+            {
                 "threshold": 2001,
                 "model": {
                     "type": "model",

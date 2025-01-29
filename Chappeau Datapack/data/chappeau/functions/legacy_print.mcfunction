@@ -32,6 +32,9 @@ execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:0b, id:"minecraft:carved_p
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:0b, id:"minecraft:carved_pumpkin"}, {Slot:1b, id:"minecraft:paper", tag:{display: {Name: '{"text":"andorian.gcode"}'}}}]} run data modify entity @e[type=minecraft:glow_item_frame, distance=0, limit=1] Item set value {id:"minecraft:carved_pumpkin", tag:{CustomModelData:1701, display:{Name:'{"text":"Andorian Wig"}'}}, Count:1b}
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:0b, id:"minecraft:carved_pumpkin"}, {Slot:1b, id:"minecraft:paper", tag:{display: {Name: '{"text":"andorian.gcode"}'}}}]} run data modify block ~ ~1 ~ Items[{Slot:0b}] merge value {Count:0b}
 
+execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:0b, id:"minecraft:carved_pumpkin"}, {Slot:1b, id:"minecraft:paper", tag:{display: {Name: '{"text":"vulcan.gcode"}'}}}]} run data modify entity @e[type=minecraft:glow_item_frame, distance=0, limit=1] Item set value {id:"minecraft:carved_pumpkin", tag:{CustomModelData:1702, display:{Name:'{"text":"Vulcan Ears"}'}}, Count:1b}
+execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:0b, id:"minecraft:carved_pumpkin"}, {Slot:1b, id:"minecraft:paper", tag:{display: {Name: '{"text":"vulcan.gcode"}'}}}]} run data modify block ~ ~1 ~ Items[{Slot:0b}] merge value {Count:0b}
+
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:0b, id:"minecraft:brown_mushroom"}, {Slot:1b, id:"minecraft:paper", tag:{display: {Name: '{"text":"mini-him.gcode"}'}}}]} run data modify entity @e[type=minecraft:glow_item_frame, distance=0, limit=1] Item set value {id:"minecraft:brown_mushroom", tag:{CustomModelData:1, display:{Name:'{"text":"Mini-Him"}'}}, Count:1b}
 execute if block ~ ~1 ~ minecraft:hopper{Items:[{Slot:0b, id:"minecraft:brown_mushroom"}, {Slot:1b, id:"minecraft:paper", tag:{display: {Name: '{"text":"mini-him.gcode"}'}}}]} run data modify block ~ ~1 ~ Items[{Slot:0b}] merge value {Count:0b}
 
