@@ -1,0 +1,1056 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "component",
+        "component": "minecraft:potion_contents",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/potion"
+        },
+        "cases": [
+            {
+                "when": "minecraft:night_vision",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Auromar Geisha",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Auromar Geisha (12oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Coffee (12oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Coffee (Small)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:long_night_vision",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Auromar Geisha",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Auromar Geisha (16oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Coffee (16oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Coffee (Large)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:leaping",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Legender Especial",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Legender Especial (12oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Coffee (12oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Coffee (Small)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:long_leaping",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Legender Especial",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Legender Especial (16oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Coffee (16oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Coffee (Large)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:strong_leaping",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/espresso"
+                            }
+                        },
+                        {
+                            "when": "Legender Especial",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/espresso"
+                            }
+                        },
+                        {
+                            "when": "Legender Especial (Espresso)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/espresso"
+                            }
+                        },
+                        {
+                            "when": "Espresso",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/espresso"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:fire_resistance",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "La Hermosa",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "La Hermosa (12oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Coffee (12oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Coffee (Small)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:long_fire_resistance",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "La Hermosa",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "La Hermosa (16oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Coffee (16oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Coffee (Large)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:swiftness",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Yirgacheffe",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Yirgacheffe (12oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Coffee (12oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Coffee (Small)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:long_swiftness",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Yirgacheffe",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Yirgacheffe (16oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Coffee (16oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Coffee (Large)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:strong_swiftness",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/espresso"
+                            }
+                        },
+                        {
+                            "when": "Yirgacheffe",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/espresso"
+                            }
+                        },
+                        {
+                            "when": "Yirgacheffe (Espresso)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/espresso"
+                            }
+                        },
+                        {
+                            "when": "Espresso",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/espresso"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:water_breathing",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Kona",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Kona (12oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Coffee (12oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Coffee (Small)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:long_water_breathing",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Kona",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Kona (16oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Coffee (16oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Coffee (Large)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:healing",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Ndumberi Peaberry",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Ndumberi Peaberry (12oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Coffee (12oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Coffee (Small)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:strong_healing",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/espresso"
+                            }
+                        },
+                        {
+                            "when": "Ndumberi Peaberry",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/espresso"
+                            }
+                        },
+                        {
+                            "when": "Ndumberi Peaberry (Espresso)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/espresso"
+                            }
+                        },
+                        {
+                            "when": "Espresso",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/espresso"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:regeneration",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Cimitrio Luna",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Cimitrio Luna (12oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Coffee (12oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Coffee (Small)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:long_regeneration",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Cimitrio Luna",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Cimitrio Luna (16oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Coffee (16oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Coffee (Large)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:strong_regeneration",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/espresso"
+                            }
+                        },
+                        {
+                            "when": "Cimitrio Luna",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/espresso"
+                            }
+                        },
+                        {
+                            "when": "Cimitrio Luna (Espresso)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/espresso"
+                            }
+                        },
+                        {
+                            "when": "Espresso",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/espresso"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:strength",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Minga Cabrera",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Minga Cabrera (12oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Coffee (12oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Coffee (Small)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:long_strength",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Minga Cabrera",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Minga Cabrera (16oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Coffee (16oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Coffee (Large)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:strong_strength",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/espresso"
+                            }
+                        },
+                        {
+                            "when": "Minga Cabrera",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/espresso"
+                            }
+                        },
+                        {
+                            "when": "Minga Cabrera (Espresso)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/espresso"
+                            }
+                        },
+                        {
+                            "when": "Espresso",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/espresso"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:slow_falling",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Xejuyu",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Xejuyu (12oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Coffee (12oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        },
+                        {
+                            "when": "Coffee (Small)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_small"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "when": "minecraft:long_slow_falling",
+                "model": {
+                    "type": "minecraft:select",
+                    "property": "component",
+                    "component": "custom_name",
+                    "fallback": {
+                        "type": "model",
+                        "model": "item/potion"
+                    },
+                    "cases": [
+                        {
+                            "when": "Coffee",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Xejuyu",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Xejuyu (16oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Coffee (16oz)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        },
+                        {
+                            "when": "Coffee (Large)",
+                            "model": {
+                                "type": "model",
+                                "model": "caffeinate:item/coffee_large"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
