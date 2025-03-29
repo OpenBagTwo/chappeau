@@ -1,0 +1,6 @@
+{
+    "parent": "core:item/wheatley_32x32x31",
+    "textures": {
+        "texture": "core:item/aquarium"
+    }
+}
