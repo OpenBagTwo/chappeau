@@ -1,0 +1,7 @@
+schedule clear wheeptide:tick
+
+scoreboard objectives remove moonescent_eye_throw
+scoreboard objectives remove moonescent_pearl_throw
+scoreboard objectives remove moonescent_pearl_owner
+scoreboard objectives remove moonescent_pearl_thrower
+scoreboard objectives remove moonescent_pearl_flying
