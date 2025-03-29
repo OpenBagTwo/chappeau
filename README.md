@@ -24,6 +24,9 @@ compatible with each other.
 
 Texture potions as cups of coffee or shots of esperesso
 
+(see accompanying datapack to for better immersion through auto-naming)
+
+
 ### Clear Carved Pumpkins
 
 My own carved-pumpkin clearing resourcepack, included for (my own?) convenience

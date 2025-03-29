@@ -15,13 +15,6 @@ For better roleplaying and immersion, you can also choose to install the
 accompanying datapack, which will automatically rename (and thus apply textures
 to) any potions brewed in a brewing stand named "Hairo V60" or "Chemex"
 
-## Credits
-
-PearlescentMoon textures are all courtesy of PearlescentMoon.
-
-All sounds are taken directly from videos posted on her channel.
-
-
 ## License
 
 All code and assets in this resourcepack are licensed by the author
