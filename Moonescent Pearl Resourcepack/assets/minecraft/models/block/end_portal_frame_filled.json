@@ -4,7 +4,7 @@
         "bottom": "block/end_stone",
         "top": "block/end_portal_frame_top",
         "side": "block/end_portal_frame_side",
-        "eye": "item/pearl_egg"
+        "eye": "moonescent:item/pearl_egg"
     },
     "elements": [
         {

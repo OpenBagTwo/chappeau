@@ -1,6 +1,7 @@
 {
    "pack":{
-      "pack_format": 0,
+      "pack_format": 46,
+      "supported_formats": {"min_inclusive": 1, "max_inclusive": 9999},
       "description": [
 			{"text":"Remove blur from carved pumpkins","color":"gold"},
 			{"text":"\nCredits in README","color":"aqua"}

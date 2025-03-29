@@ -4,7 +4,7 @@
         64
     ],
     "textures": {
-        "0": "item/pearlo"
+        "0": "moonescent:item/pearlo"
     },
     "elements": [
         {

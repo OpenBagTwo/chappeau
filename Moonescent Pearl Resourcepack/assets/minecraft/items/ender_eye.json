@@ -1,0 +1,41 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "component",
+        "component": "custom_name",
+        "fallback": {
+            "type": "model",
+            "model": "item/ender_eye"
+        },
+        "cases": [
+            {
+                "when": "Moonescent Pearl",
+                "model": {
+                    "type": "model",
+                    "model": "moonescent:item/scarlet_pearl"
+                }
+            },
+            {
+                "when": "5am Pearl",
+                "model": {
+                    "type": "model",
+                    "model": "moonescent:item/scarlet_pearl"
+                }
+            },
+            {
+                "when": "Five AM Pearl",
+                "model": {
+                    "type": "model",
+                    "model": "moonescent:item/scarlet_pearl"
+                }
+            },
+            {
+                "when": "Scarlet Pearl",
+                "model": {
+                    "type": "model",
+                    "model": "moonescent:item/scarlet_pearl"
+                }
+            }
+        ]
+    }
+}

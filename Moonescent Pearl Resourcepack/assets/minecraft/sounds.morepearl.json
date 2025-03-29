@@ -1,4 +1,16 @@
 {
+    "entity.ender_pearl.throw": {
+        "sounds": [
+            "moonescent:wheeeptide"
+        ],
+        "replace": true
+    },
+    "entity.ender_eye.launch": {
+        "sounds": [
+            "moonescent:wheeptide"
+        ],
+        "replace": true
+    },
     "hermit.pearl.wheeptide": {
         "sounds": [
             "moonescent:wheeptide"

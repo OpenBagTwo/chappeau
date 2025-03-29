@@ -1,0 +1,6 @@
+{
+    "parent": "moonescent:item/pearlo",
+    "textures": {
+        "0": "moonescent:item/scarlet_pearl"
+    }
+}

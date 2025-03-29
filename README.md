@@ -117,6 +117,11 @@ The "motivational" posters were adaoted from the background of Mojang's
 (Season 2) as featured on the
 [Minecraft YouTube channel](https://www.youtube.com/minecraft).
 
+PearlescentMoon textures are all courtesy of PearlescentMoon.
+
+The Hermit egg model and textures were extracted from the official Hermitcraft Season 9 world download
+obtained from [the official website](https://hermitcraft.com/) and were originally created by Danny.
+
 Several models were remapped and baked in [Blender](https://www.blender.org/) then converted using
 [voxelizer](https://drububu.com/miscellaneous/voxelizer). Most were either designed in or
 edited using [Blockbench](https://www.blockbench.net/).
@@ -124,15 +129,6 @@ edited using [Blockbench](https://www.blockbench.net/).
 Textures were edited using a combination of Blockbench,
 [PikoPixel](http://twilightedge.com/mac/pikopixel/)
 and [GIMP](https://www.gimp.org/).
-
-The resource pack structure was modeled after this
-[Custom Model Data Guide](https://github.com/Simplexity-Development/Custom_Model_Data_Guide)
-developed by [**@Simplexity-Development**](https://github.com/Simplexity-Development)
-
-PearlescentMoon textures are all courtesy of PearlescentMoon.
-
-The Hermit egg model and textures were extracted from the official Hermitcraft Season 9 world download
-obtained from [the official website](https://hermitcraft.com/) and were originally created by Danny.
 
 Some other tutorials and resources that were instrumental in the development of this datapack:
 
@@ -143,6 +139,7 @@ Some other tutorials and resources that were instrumental in the development of 
 - [This Minecraft Bug Report](https://bugs.mojang.com/browse/MC-141876) for explaining to me why my commands were deleting
     the first potion in the brewing stand ("works as intended" lol)
 - [This thread on minecraftforum.net](https://www.minecraftforum.net/forums/minecraft-java-edition/redstone-discussion-and/commands-command-blocks-and/2982699-how-to-execute-if-chest-has-a-item-in-it) for providing me with a workaround to the above not-a-bug.
+- [Custom items using components for Minecraft 1.21.5](https://www.youtube.com/watch?v=u1HrSYR3DrU)
 
 
 ## License
