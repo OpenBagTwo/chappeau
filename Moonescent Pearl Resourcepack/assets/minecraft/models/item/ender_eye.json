@@ -1,6 +1,0 @@
-{
-    "parent": "item/ender_pearl",
-    "textures": {
-        "0": "item/scarlet_pearl"
-    }
-}

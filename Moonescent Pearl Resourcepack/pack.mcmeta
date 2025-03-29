@@ -1,9 +1,9 @@
 {
    "pack":{
-      "pack_format": 22,
-      "supported_formats": {"min_inclusive": 1, "max_inclusive": 22},
+      "pack_format": 49,
+      "supported_formats": {"min_inclusive": 49, "max_inclusive": 9999},
       "description": [
-			{"text":"A tribute to PearlescentMoon","color":"green"},
+			{"text":"A tribute to PearlescentMoon","color":"light_purple"},
 			{"text":"\n by OpenBagTwo","color":"aqua"}
 		]
    }
