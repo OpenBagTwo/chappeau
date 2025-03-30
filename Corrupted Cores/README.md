@@ -12,6 +12,12 @@ Grab a carved pumpkin and rename it in an anvil with one of the following names:
 - Space Core
 - Wheatley
 
+## Warning
+
+The model used by Wheatley, Rick, the Morgan Freeman Core and the Aquarium Core
+have a very high polygon count and are in no way optimized. Use them at your
+own discretion.
+
 ## Credits
 
 The model for Wheatley comes from bunbunny via

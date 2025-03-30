@@ -15,8 +15,8 @@ These items can then be:
   [Armor Statues Datapack](https://modrinth.com/datapack/armor-statues-datapack)
   or an [equivalent mod](https://modrinth.com/mod/armor-poser))
 
-Each pack in this repo can be installed independently and are mutually
-compatible with each other.
+Each pack in this repo can be installed independently and are trivial to
+combine.
 
 ## Table of Contents
 
