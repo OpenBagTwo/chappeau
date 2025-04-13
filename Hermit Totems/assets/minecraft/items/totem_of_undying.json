@@ -1,0 +1,287 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "component",
+        "component": "custom_name",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/totem_of_undying"
+        },
+        "cases": [
+            {
+                "when": "Totem of Moss",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/bdubs_totem"
+                }
+            },
+            {
+                "when": "Totem of Jeremy",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/beans_totem"
+                }
+            },
+            {
+                "when": "Totem of Lizzie's Husband",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/beans_totem"
+                }
+            },
+            {
+                "when": "Totem of Beef",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/beef_totem"
+                }
+            },
+            {
+                "when": "Totem of Unaliving",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/cleo_totem"
+                }
+            },
+            {
+                "when": "Totem of Cub",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/cubfan_totem"
+                }
+            },
+            {
+                "when": "Totem of The Goat",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/docm77_totem"
+                }
+            },
+            {
+                "when": "Totem of Etho",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/etho_totem"
+                }
+            },
+            {
+                "when": "False Totem",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/false_totem"
+                }
+            },
+            {
+                "when": "Totem of Symmetry",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/false_totem"
+                }
+            },
+            {
+                "when": "Totem of Gem",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/gem_totem"
+                }
+            },
+            {
+                "when": "Pesky Totem",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/grian_totem"
+                }
+            },
+            {
+                "when": "Totem of Hypno",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/hypno_totem"
+                }
+            },
+            {
+                "when": "Totem of Slime",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/ijevin_totem"
+                }
+            },
+            {
+                "when": "Totem of Exile",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/ijevin_totem"
+                }
+            },
+            {
+                "when": "Totem of Impulse",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/impulse_totem"
+                }
+            },
+            {
+                "when": "Totem of Joe",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/joehills_totem"
+                }
+            },
+            {
+                "when": "Sweet Faced Totem",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/keralis_totem"
+                }
+            },
+            {
+                "when": "Quite Simple Totem",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/mumbo_totem"
+                }
+            },
+            {
+                "when": "Totem of The Moon",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/pearl_totem"
+                }
+            },
+            {
+                "when": "Totem of Ren",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/ren_totem"
+                }
+            },
+            {
+                "when": "Scarred Totem",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/scar_totem"
+                }
+            },
+            {
+                "when": "Totem of Skizz",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/skizz_totem"
+                }
+            },
+            {
+                "when": "Totem of Ruber",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/skizz_totem"
+                }
+            },
+            {
+                "when": "Totem of Tango",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/tango_totem"
+                }
+            },
+            {
+                "when": "Totem of Tanog",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/tango_totem"
+                }
+            },
+            {
+                "when": "Totem of TFC",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/tfc_totem"
+                }
+            },
+            {
+                "when": "Totem of Wels",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/welsknight_totem"
+                }
+            },
+            {
+                "when": "Totem of xB",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/xb_totem"
+                }
+            },
+            {
+                "when": "Princess Totem",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/xb_totem"
+                }
+            },
+            {
+                "when": "Totem of X",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/xisuma_totem"
+                }
+            },
+            {
+                "when": "Totem of Shishwammy",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/xisuma_totem"
+                }
+            },
+            {
+                "when": "Totem of Zed",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/zedaph_totem"
+                }
+            },
+            {
+                "when": "Is That Totem Looking At Me?",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/zedaph_totem"
+                }
+            },
+            {
+                "when": "Totem of Grumbot",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/grumbot_totem"
+                }
+            },
+            {
+                "when": "Totem of Imli",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/imli_totem"
+                }
+            },
+            {
+                "when": "Totem of The King",
+                "model": {
+                    "type": "model",
+                    "model": "hct:item/kingren_totem"
+                }
+            },
+            {
+                "when": "Totem of The Juppet",
+                "model": {
+                    "type": "minecraft:condition",
+                    "property": "minecraft:selected",
+                    "on_true": {
+                        "type": "model",
+                        "model": "hct:item/juppet_totem_ani"
+                    },
+                    "on_false": {
+                        "type": "model",
+                        "model": "hct:item/juppet_totem"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+   "pack":{
+      "pack_format": 49,
+      "supported_formats": {"min_inclusive": 49, "max_inclusive": 9999},
+      "description": [
+			{"text":"Totems of HermitCraft","color":"gold"},
+			{"text":"\n by OpenBagTwo & BrazenWolf","color":"aqua"}
+		]
+   }
+}
