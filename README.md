@@ -50,7 +50,7 @@ _even babier_ ghast around your base?
 Mixes various in-game sounds for Hermit soundbytes
 
 
-### Hermit Totems & Eggs
+### Hermit Totems
 
 Provides the custom Totems of Undying created by
 [u/BrazenWolf_](https://www.reddit.com/r/HermitCraft/comments/xnir7p/hermit_totems_s9_members_completed/)
