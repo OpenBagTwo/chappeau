@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "component",
+        "component": "custom_name",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:item/diamond_sword"
+        },
+        "cases": [
+            {
+                "when": "DPN",
+                "model": {
+                    "type": "model",
+                    "model": "dpn:item/diamond_dpn"
+                }
+            },
+            {
+                "when": "Double-Pointed Needle",
+                "model": {
+                    "type": "model",
+                    "model": "dpn:item/diamond_dpn"
+                }
+            }
+        ]
+    }
+}

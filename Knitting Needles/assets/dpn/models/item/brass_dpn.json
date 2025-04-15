@@ -1,0 +1,7 @@
+{
+    "credit": "Made with Blockbench",
+    "parent": "dpn:item/dpn",
+    "textures": {
+        "layer0": "dpn:item/brass_dpn"
+    }
+}
