@@ -1,0 +1,6 @@
+{
+    "parent": "yirky:item/sphere_with_the_leaves",
+    "textures": {
+        "0": "yirky:item/yirky"
+    }
+}

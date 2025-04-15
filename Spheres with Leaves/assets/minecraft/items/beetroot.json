@@ -1,0 +1,27 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "component",
+        "component": "custom_name",
+        "fallback": {
+            "type": "model",
+            "model": "item/beetroot"
+        },
+        "cases": [
+            {
+                "when": "Oddish",
+                "model": {
+                    "type": "model",
+                    "model": "yirky:item/ancestor"
+                }
+            },
+            {
+                "when": "Ancestor",
+                "model": {
+                    "type": "model",
+                    "model": "yirky:item/ancestor"
+                }
+            }
+        ]
+    }
+}
