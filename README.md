@@ -54,9 +54,7 @@ Mixes various in-game sounds for Hermit soundbytes
 
 Provides the custom Totems of Undying created by
 [u/BrazenWolf_](https://www.reddit.com/r/HermitCraft/comments/xnir7p/hermit_totems_s9_members_completed/)
-of the r/HermitCraft subreddit, along with the custom Hermit eggs
-created by RubikOwl and Danny for iJevin's
-[2022 Egg Hunt](https://hermitcraft.fandom.com/wiki/Hermitcraft_Easter_Egg_Hunt).
+of the r/HermitCraft subreddit
 
 
 ### HIM
