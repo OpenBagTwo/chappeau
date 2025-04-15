@@ -1,0 +1,20 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "component",
+        "component": "custom_name",
+        "fallback": {
+            "type": "model",
+            "model": "item/short_grass"
+        },
+        "cases": [
+            {
+                "when": "Oddish",
+                "model": {
+                    "type": "model",
+                    "model": "yirky:item/sphere_with_the_leaves"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "component",
+        "component": "custom_name",
+        "fallback": {
+            "type": "model",
+            "model": "item/seagrass"
+        },
+        "cases": [
+            {
+                "when": "Oddish",
+                "model": {
+                    "type": "model",
+                    "model": "yirky:item/tumeric_oddish"
+                }
+            },
+            {
+                "when": "Yirky",
+                "model": {
+                    "type": "model",
+                    "model": "yirky:item/tumeric_oddish"
+                }
+            },
+            {
+                "when": "Yirky Oddish",
+                "model": {
+                    "type": "model",
+                    "model": "yirky:item/tumeric_oddish"
+                }
+            }
+        ]
+    }
+}
