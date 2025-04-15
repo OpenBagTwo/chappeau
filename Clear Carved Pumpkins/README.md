@@ -8,7 +8,8 @@ It was constructed by following the instructions in this tutorial:
 
 ## License
 
-This resourcepack, and its respecitve contents--including model assets and textures--are licensed by me
-under [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html). If you require a more permissive
+This resourcepack and its respecitve contents--including model assets and textures--are licensed by me,
+[**@OpenBagTwo**](https://github.com/OpenBagTwo/), under
+the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html). If you require a more permissive
 license, I recommend making your own pack and assets using the source material, templates, programs and
 tutorials linked above.
