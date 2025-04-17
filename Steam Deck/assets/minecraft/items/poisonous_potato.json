@@ -1,0 +1,20 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "component",
+        "component": "custom_name",
+        "fallback": {
+            "type": "model",
+            "model": "item/poisonous_potato"
+        },
+        "cases": [
+            {
+                "when": "Steam Deck",
+                "model": {
+                    "type": "model",
+                    "model": "aerith:item/steam_deck"
+                }
+            }
+        ]
+    }
+}
