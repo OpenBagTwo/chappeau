@@ -1,0 +1,13 @@
+{
+    "asset_id": "mojivation:placeholder",
+    "height": 3,
+    "width": 2,
+    "title": {
+        "color": "gray",
+        "translate": "painting.mojivation.placeholder.title"
+    },
+    "author": {
+        "color": "green",
+        "translate": "painting.mojivation.placeholder.author"
+    }
+}

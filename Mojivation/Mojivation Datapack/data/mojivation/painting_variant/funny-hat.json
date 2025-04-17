@@ -1,0 +1,13 @@
+{
+    "asset_id": "mojivation:funny-hat",
+    "height": 3,
+    "width": 2,
+    "title": {
+        "color": "gray",
+        "translate": "painting.mojivation.funny-hat.title"
+    },
+    "author": {
+        "color": "green",
+        "translate": "painting.mojivation.funny-hat.author"
+    }
+}

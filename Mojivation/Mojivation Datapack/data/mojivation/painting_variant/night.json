@@ -1,0 +1,13 @@
+{
+    "asset_id": "mojivation:night",
+    "height": 3,
+    "width": 2,
+    "title": {
+        "color": "gray",
+        "translate": "painting.mojivation.night.title"
+    },
+    "author": {
+        "color": "green",
+        "translate": "painting.mojivation.night.author"
+    }
+}

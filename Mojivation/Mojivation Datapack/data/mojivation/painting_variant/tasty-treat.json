@@ -1,0 +1,13 @@
+{
+    "asset_id": "mojivation:tasty-treat",
+    "height": 3,
+    "width": 4,
+    "title": {
+        "color": "gray",
+        "translate": "painting.mojivation.tasty-treat.title"
+    },
+    "author": {
+        "color": "green",
+        "translate": "painting.mojivation.tasty-treat.author"
+    }
+}

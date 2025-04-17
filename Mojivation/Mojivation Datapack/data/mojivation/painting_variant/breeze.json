@@ -1,0 +1,13 @@
+{
+    "asset_id": "mojivation:breeze",
+    "height": 3,
+    "width": 2,
+    "title": {
+        "color": "gray",
+        "translate": "painting.mojivation.breeze.title"
+    },
+    "author": {
+        "color": "green",
+        "translate": "painting.mojivation.breeze.author"
+    }
+}

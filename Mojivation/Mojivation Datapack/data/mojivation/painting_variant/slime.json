@@ -1,0 +1,13 @@
+{
+    "asset_id": "mojivation:slime",
+    "height": 3,
+    "width": 2,
+    "title": {
+        "color": "gray",
+        "translate": "painting.mojivation.slime.title"
+    },
+    "author": {
+        "color": "green",
+        "translate": "painting.mojivation.slime.author"
+    }
+}

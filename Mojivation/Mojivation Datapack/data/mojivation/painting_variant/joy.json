@@ -1,0 +1,13 @@
+{
+    "asset_id": "mojivation:joy",
+    "height": 3,
+    "width": 2,
+    "title": {
+        "color": "gray",
+        "translate": "painting.mojivation.joy.title"
+    },
+    "author": {
+        "color": "green",
+        "translate": "painting.mojivation.joy.author"
+    }
+}

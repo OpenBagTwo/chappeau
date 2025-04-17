@@ -1,0 +1,13 @@
+{
+    "asset_id": "mojivation:william",
+    "height": 3,
+    "width": 2,
+    "title": {
+        "color": "gray",
+        "translate": "painting.mojivation.william.title"
+    },
+    "author": {
+        "color": "green",
+        "translate": "painting.mojivation.william.author"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "asset_id": "mojivation:thankyou",
+    "height": 3,
+    "width": 2,
+    "title": {
+        "color": "gray",
+        "translate": "painting.mojivation.thankyou.title"
+    },
+    "author": {
+        "color": "green",
+        "translate": "painting.mojivation.thankyou.author"
+    }
+}

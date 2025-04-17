@@ -1,0 +1,13 @@
+{
+    "asset_id": "mojivation:poyayto",
+    "height": 3,
+    "width": 2,
+    "title": {
+        "color": "gray",
+        "translate": "painting.mojivation.poyayto.title"
+    },
+    "author": {
+        "color": "green",
+        "translate": "painting.mojivation.poyayto.author"
+    }
+}

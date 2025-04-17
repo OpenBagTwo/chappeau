@@ -1,0 +1,13 @@
+{
+    "asset_id": "mojivation:lunch",
+    "height": 3,
+    "width": 2,
+    "title": {
+        "color": "gray",
+        "translate": "painting.mojivation.lunch.title"
+    },
+    "author": {
+        "color": "green",
+        "translate": "painting.mojivation.lunch.author"
+    }
+}

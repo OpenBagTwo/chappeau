@@ -1,0 +1,13 @@
+{
+    "asset_id": "mojivation:holidays",
+    "height": 3,
+    "width": 2,
+    "title": {
+        "color": "gray",
+        "translate": "painting.mojivation.holidays.title"
+    },
+    "author": {
+        "color": "green",
+        "translate": "painting.mojivation.holidays.author"
+    }
+}
