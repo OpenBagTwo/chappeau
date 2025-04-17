@@ -1,3 +1,6 @@
 release/
 Level\ Up\ Datapack/
 Mojivation/raw
+__pycache__
+.mypy_cache
+.ruff_cache
