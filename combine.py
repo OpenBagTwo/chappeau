@@ -124,12 +124,14 @@ if __name__ == "__main__":
     dst = args.dst.expanduser()
     if dst.suffix == ".zip":
         dst = dst.with_suffix("")
-    if dst.with_suffix(".zip").exists():
+
+    existence_tester = dst.parent / (dst.name + ".zip")
+    if existence_tester.exists():
         if not args.overwrite:
-            print(f"{dst}.zip already exists. To overwrite it, pass -f")
+            print(f"{existence_tester} already exists. To overwrite it, pass -f")
             sys.exit(1)
         else:
-            dst.with_suffix(".zip").unlink()
+            existence_tester.unlink()
     else:
         dst.parent.mkdir(parents=True, exist_ok=True)
     combine_packs(dst, *args.packs)
