@@ -1,0 +1,13 @@
+{
+    "asset_id": "mojivation:bogged",
+    "height": 3,
+    "width": 2,
+    "title": {
+        "color": "gray",
+        "translate": "painting.mojivation.bogged.title"
+    },
+    "author": {
+        "color": "green",
+        "translate": "painting.mojivation.bogged.author"
+    }
+}

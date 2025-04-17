@@ -1,0 +1,13 @@
+{
+    "asset_id": "mojivation:diorite",
+    "height": 3,
+    "width": 2,
+    "title": {
+        "color": "gray",
+        "translate": "painting.mojivation.diorite.title"
+    },
+    "author": {
+        "color": "green",
+        "translate": "painting.mojivation.diorite.author"
+    }
+}

@@ -1,0 +1,153 @@
+{
+    "entity.slime.jump_small": {
+        "sounds": [
+            {
+                "name": "hermits:greatest",
+                "volume": 0.5,
+                "attenuation_distance": 4
+            }
+        ],
+        "replace": true
+    },
+    "entity.goat.screaming.ambient": {
+        "sounds": [
+            "hermits:mad_laugh",
+            "hermits:what"
+        ],
+        "replace": false
+    },
+    "entity.turtle.hurt": {
+        "sounds": [
+            "hermits:illegal"
+        ],
+        "replace": true
+    },
+    "entity.cow.ambient": {
+        "sounds": [
+            {
+                "name": "mob/cow/say1",
+                "weight": 100
+            },
+            {
+                "name": "mob/cow/say2",
+                "weight": 100
+            },
+            {
+                "name": "mob/cow/say3",
+                "weight": 100
+            },
+            {
+                "name": "mob/cow/say4",
+                "weight": 100
+            },
+            {
+                "name": "hermits:moo",
+                "attenuation_distance": 4,
+                "weight": 1
+            }
+        ],
+        "replace": true
+    },
+    "entity.wolf_cute.pant": {
+        "sounds": [
+            {
+                "name": "mob/wolf/cute/panting",
+                "weight": 72
+            },
+            "hermits:joe_awoo"
+        ],
+        "replace": true
+    },
+    "entity.wolf_grumpy.ambient": {
+        "sounds": [
+            {
+                "name": "mob/wolf/grumpy/bark1",
+                "weight": 24
+            },
+            {
+                "name": "mob/wolf/grumpy/bark1",
+                "weight": 24
+            },
+            {
+                "name": "mob/wolf/grumpy/bark1",
+                "weight": 24
+            },
+            "hermits:cleo_awoo"
+        ],
+        "replace": true
+    },
+    "entity.wolf_grumpy.pant": {
+        "sounds": [
+            {
+                "name": "mob/wolf/grumpy/panting",
+                "weight": 72
+            },
+            "hermits:cleo_bored_awoo"
+        ],
+        "replace": true
+    },
+    "entity.wolf_puglin.pant": {
+        "sounds": [
+            {
+                "name": "mob/wolf/puglin/panting",
+                "weight": 72
+            },
+            "hermits:zed_awoo"
+        ],
+        "replace": true
+    },
+    "entity.wolf_sad.ambient": {
+        "sounds": [
+            {
+                "name": "mob/wolf/sad/bark1",
+                "weight": 24
+            },
+            {
+                "name": "mob/wolf/sad/bark1",
+                "weight": 24
+            },
+            {
+                "name": "mob/wolf/sad/bark1",
+                "weight": 24
+            },
+            "hermits:x_awoo"
+        ],
+        "replace": true
+    },
+    "entity.enderman.ambient": {
+        "sounds": [
+            {
+                "name": "mob/endermen/idle1",
+                "weight": 100
+            },
+            {
+                "name": "mob/endermen/idle2",
+                "weight": 100
+            },
+            {
+                "name": "mob/endermen/idle3",
+                "weight": 100
+            },
+            {
+                "name": "mob/endermen/idle4",
+                "weight": 100
+            },
+            {
+                "name": "mob/endermen/idle5",
+                "weight": 100
+            },
+            {
+                "name": "hermits:got_any_pickles",
+                "attenuation_distance": 2,
+                "weight": 1
+            }
+        ],
+        "replace": true
+    },
+    "entity.ghast.hurt": {
+        "sounds": [
+            "hermits:grast"
+        ],
+        "replace": false
+    }
+}

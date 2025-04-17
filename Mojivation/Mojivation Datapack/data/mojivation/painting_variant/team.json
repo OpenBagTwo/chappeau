@@ -1,0 +1,13 @@
+{
+    "asset_id": "mojivation:team",
+    "height": 3,
+    "width": 2,
+    "title": {
+        "color": "gray",
+        "translate": "painting.mojivation.team.title"
+    },
+    "author": {
+        "color": "green",
+        "translate": "painting.mojivation.team.author"
+    }
+}

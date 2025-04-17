@@ -1,0 +1,13 @@
+{
+    "asset_id": "mojivation:smile",
+    "height": 3,
+    "width": 2,
+    "title": {
+        "color": "gray",
+        "translate": "painting.mojivation.smile.title"
+    },
+    "author": {
+        "color": "green",
+        "translate": "painting.mojivation.smile.author"
+    }
+}
