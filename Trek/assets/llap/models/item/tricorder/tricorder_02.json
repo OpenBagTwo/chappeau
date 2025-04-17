@@ -1,0 +1,6 @@
+{
+    "parent": "llap:item/tricorder",
+    "textures": {
+        "0": "llap:item/tricorder/tricorder_02"
+    }
+}
