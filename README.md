@@ -3,7 +3,7 @@
 This repo contains a variety of **stand-alone resourcepacks** that add custom
 items to the game without replacing the originals.
 
-These resourcepacks require no mods and, as of 1.21.5 (vPENDING), require no
+These resourcepacks require no mods and, as of 1.21.5 (v25.04.17), require no
 datapacks or commands in order to be used in survival: simply grab an anvil
 and rename each item as specified in the resource pack's README.
 
@@ -98,6 +98,26 @@ Turn your poisonous potato into a portable console
 ### Trek Roleplay
 
 Various _Trek_-themed items
+
+## Combining Resource Packs
+
+This repo also includes a handy script for combining resource packs.
+
+Simply:
+
+0. Install Python
+1. Clone this repo
+2. Open a terminal and navigate to the root of the project
+3. Run the following command:
+   ```bash
+   $ python combine.py combined_filename.zip packs to combine
+   ```
+   _e.g._
+   ```bash
+   $ python combine.py all_the_heads.zip "Corrupted Cores" HIM Jameson Trek
+   ```
+
+_**Pro tip:** you can also use this script to create a resources.zip for a world or a server_
 
 
 ## Credits and Acknowledgements
