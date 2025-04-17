@@ -1,7 +1,0 @@
-{
-    "parent": "item/egg/gold",
-    "textures": {
-        "2": "item/egg/hypno",
-        "particle": "item/egg/hypno"
-    }
-}
