@@ -1,6 +1,0 @@
-{
-    "parent": "item/custom/tricorder",
-    "textures": {
-        "0": "item/compass/tricorder_07"
-    }
-}

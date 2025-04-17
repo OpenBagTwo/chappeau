@@ -1,6 +1,0 @@
-{
-    "parent": "item/custom/wheatley_32x32x31",
-    "textures": {
-        "texture": "item/rick"
-    }
-}
