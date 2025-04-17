@@ -1,0 +1,41 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "component",
+        "component": "custom_name",
+        "fallback": {
+            "type": "model",
+            "model": "minecraft:block/carved_pumpkin"
+        },
+        "cases": [
+            {
+                "when": "Andorian",
+                "model": {
+                    "type": "model",
+                    "model": "llap:item/andorian"
+                }
+            },
+            {
+                "when": "Antennae",
+                "model": {
+                    "type": "model",
+                    "model": "llap:item/andorian"
+                }
+            },
+            {
+                "when": "Vulcan",
+                "model": {
+                    "type": "model",
+                    "model": "llap:item/vulcan_ears"
+                }
+            },
+            {
+                "when": "Pointy Ears",
+                "model": {
+                    "type": "model",
+                    "model": "llap:item/vulcan_ears"
+                }
+            }
+        ]
+    }
+}
