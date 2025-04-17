@@ -1,7 +1,10 @@
+#!/usr/bin/env python
 """Functionality for combining resourcepacks"""
 
+import argparse
 import json
 import shutil
+import sys
 import tempfile
 from pathlib import Path
 
@@ -105,3 +108,28 @@ def combine_packs(dst: Path, *packs: str) -> None:
 
         (Path(tmpdir) / "README.md").write_text(readme)
         shutil.make_archive(str(dst), "zip", root_dir=tmpdir)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("dst", type=Path, help="The path to save the combined datapack")
+    parser.add_argument("packs", nargs="+", help="The packs to combine")
+    parser.add_argument(
+        "--overwrite",
+        "-f",
+        action="store_true",
+        help="If the specified destination path already exists, overwrite it",
+    )
+    args = parser.parse_args()
+    dst = args.dst.expanduser()
+    if dst.suffix == ".zip":
+        dst = dst.with_suffix("")
+    if dst.with_suffix(".zip").exists():
+        if not args.overwrite:
+            print(f"{dst}.zip already exists. To overwrite it, pass -f")
+            sys.exit(1)
+        else:
+            dst.with_suffix(".zip").unlink()
+    else:
+        dst.parent.mkdir(parents=True, exist_ok=True)
+    combine_packs(dst, *args.packs)
