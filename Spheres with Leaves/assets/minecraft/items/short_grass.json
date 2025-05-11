@@ -4,8 +4,15 @@
         "property": "component",
         "component": "custom_name",
         "fallback": {
-            "type": "model",
-            "model": "item/short_grass"
+            "type": "minecraft:model",
+            "model": "minecraft:item/short_grass",
+            "tints": [
+                {
+                    "type": "minecraft:grass",
+                    "downfall": 1.0,
+                    "temperature": 0.5
+                }
+            ]
         },
         "cases": [
             {
