@@ -29,5 +29,5 @@ The combining of these elements into this resource pack was done under the princ
 
 ## License
 
-This pack and its contents has been marked as dedicated to the public domain. Details can be found in
-the accompanying LICENSE.txt file.
+This pack and its contents have been marked as dedicated to the public domain. Details can be found in
+the accompanying LICENSE file.
