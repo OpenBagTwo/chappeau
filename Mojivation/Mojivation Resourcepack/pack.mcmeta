@@ -1,7 +1,17 @@
 {
-   "pack":{
-      "pack_format": 34,
-      "supported_formats": {"min_inclusive": 34, "max_inclusive": 9999},
-      "description": [{"text":"Motivational Posters","color":"green"}]
-   }
+    "pack": {
+        "pack_format": 34,
+        "supported_formats": {
+            "min_inclusive": 34,
+            "max_inclusive": 9999
+        },
+        "description": [
+            {
+                "text": "Motivational Posters",
+                "color": "green"
+            }
+        ],
+        "min_format": 34,
+        "max_format": 9999
+    }
 }

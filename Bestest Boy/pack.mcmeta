@@ -1,10 +1,21 @@
 {
-  "pack": {
-    "pack_format": 41,
-    "supported_formats": {"min_inclusive": 41, "max_inclusive": 9999},
-    "description": [
-      {"text": "Colors snowy wolves' eyes", "color": "aqua"},
-      {"text": "\n by OpenBagTwo", "color": "dark_gray"}
-    ]
-  }
+    "pack": {
+        "pack_format": 41,
+        "supported_formats": {
+            "min_inclusive": 41,
+            "max_inclusive": 9999
+        },
+        "description": [
+            {
+                "text": "Colors snowy wolves' eyes",
+                "color": "aqua"
+            },
+            {
+                "text": "\n by OpenBagTwo",
+                "color": "dark_gray"
+            }
+        ],
+        "min_format": 41,
+        "max_format": 9999
+    }
 }

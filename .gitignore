@@ -4,3 +4,8 @@ Mojivation/raw
 __pycache__
 .mypy_cache
 .ruff_cache
+shreep/
+og_crafter/
+porkchop/
+trek-trims/
+craving/

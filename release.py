@@ -16,15 +16,17 @@ def main():
 
     release_folder.mkdir(parents=True, exist_ok=False)
 
+    ignore = {Path(line) for line in Path(".gitignore").read_text().splitlines()}
+
     for mcmeta in Path().rglob("pack.mcmeta"):
         pack_root = mcmeta.parent
+        if pack_root in ignore:
+            continue
         shutil.make_archive(
             str(release_folder / f"{pack_root.name} {version}"),
             "zip",
             root_dir=pack_root,
         )
-
-    ignore = {Path(line) for line in Path(".gitignore").read_text().splitlines()}
 
     packs = []
     for path in Path().glob("*"):

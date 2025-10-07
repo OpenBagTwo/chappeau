@@ -95,6 +95,8 @@ def combine_packs(dst: Path, *packs: str) -> None:
                             "min_inclusive": PACK_FORMAT,
                             "max_inclusive": 9999,
                         },
+                        "min_format": PACK_FORMAT,
+                        "max_format": 9999,
                         "description": [
                             {"text": "Combined Resourcepack", "color": "gold"},
                             {"text": "\n by OpenBagTwo", "color": "aqua"},

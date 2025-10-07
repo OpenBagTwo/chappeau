@@ -1,7 +1,12 @@
 {
-  "pack": {
-    "pack_format": 55,
-    "supported_formats": {"min_inclusive": 53, "max_inclusive": 999},
-    "description": "Just a bunch of sounds from Hermitcraft"
-  }
+    "pack": {
+        "pack_format": 55,
+        "supported_formats": {
+            "min_inclusive": 53,
+            "max_inclusive": 999
+        },
+        "description": "Just a bunch of sounds from Hermitcraft",
+        "min_format": 53,
+        "max_format": 999
+    }
 }
