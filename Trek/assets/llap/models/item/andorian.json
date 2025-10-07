@@ -6,7 +6,7 @@
     ],
     "textures": {
         "0": "llap:item/andorian",
-        "particle": "llap:item/light_blue_wool"
+        "particle": "block/light_blue_wool"
     },
     "elements": [
         {

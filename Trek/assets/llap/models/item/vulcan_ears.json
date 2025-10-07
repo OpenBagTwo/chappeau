@@ -2,7 +2,7 @@
     "credit": "Made with Blockbench",
     "textures": {
         "0": "llap:item/vulcan_ears",
-        "particle": "item/light_gray_wool"
+        "particle": "block/light_gray_wool"
     },
     "elements": [
         {
