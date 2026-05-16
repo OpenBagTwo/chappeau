@@ -16,6 +16,12 @@
         ],
         "replace": false
     },
+    "entity.goat.screaming.death": {
+        "sounds": [
+            "hermits:doc_didnt_sign_up_for_this"
+        ],
+        "replace": false
+    },
     "entity.turtle.hurt": {
         "sounds": [
             "hermits:illegal"
@@ -144,10 +150,266 @@
         ],
         "replace": true
     },
+    "entity.enderman.stare": {
+        "sounds": [
+            {
+                "name": "mob/endermen/stare",
+                "weight": 100
+            },
+            {
+                "name": "hermits:pearl_can_you_not",
+                "weight": 1
+            }
+        ],
+        "replace": true
+    },
     "entity.ghast.hurt": {
         "sounds": [
             "hermits:grast"
         ],
         "replace": false
+    },
+    "entity.piglin.admiring_item": {
+        "sounds": [
+            {
+                "name": "mob/piglin/admire1",
+                "volume": 0.8,
+                "weight": 100
+            },
+            {
+                "name": "mob/piglin/admire2",
+                "volume": 0.8,
+                "weight": 100
+            },
+            {
+                "name": "mob/piglin/celebrate2",
+                "volume": 0.8,
+                "weight": 100
+            },
+            {
+                "name": "mob/piglin/celebrate4",
+                "volume": 0.85,
+                "weight": 100
+            },
+            {
+                "name": "hermits:gem_amazing",
+                "weight": 1
+            },
+            {
+                "name": "hermits:pearlfection",
+                "weight": 1,
+                "volume": 0.5
+            },
+            {
+                "name": "hermits:keralis_what_is_this",
+                "weight": 1
+            }
+        ],
+        "replace": true
+    },
+    "entity.vindicator.celebrate": {
+        "sounds": [
+            "hermits:cub_cheer"
+        ],
+        "replace": false
+    },
+    "entity.wandering_trader.disappeared": {
+        "sounds": [
+            "hermits:cubs_people_need_him"
+        ],
+        "replace": false
+    },
+    "entity.generic.burn": {
+        "sounds": [
+            {
+                "name": "random/fizz",
+                "weight": 500
+            },
+            {
+                "name": "hermits:oh_my_impulse",
+                "weight": 1
+            }
+        ],
+        "replace": true
+    },
+    "entity.villager.no": {
+        "sounds": [
+            "hermits:etho_not_a_hoarder",
+            "hermits:xb_basic"
+        ],
+        "replace": false
+    },
+    "entity.villager.trade": {
+        "sounds": [
+            {
+                "name": "mob/villager/haggle1",
+                "weight": 33
+            },
+            {
+                "name": "mob/villager/haggle2",
+                "weight": 33
+            },
+            {
+                "name": "mob/villager/haggle3",
+                "weight": 33
+            },
+            {
+                "name": "hermits:skizz_tell_me_what_you_want",
+                "weight": 1
+            }
+        ],
+        "replace": true
+    },
+    "entity.goat.prepare_ram": {
+        "sounds": [
+            "hermits:ren_headbutt"
+        ],
+        "replace": false
+    },
+    "entity.warden.sniff": {
+        "sounds": [
+            "hermits:tango_did_you_shower"
+        ],
+        "replace": false
+    },
+    "entity.happy_ghast.ambient": {
+        "sounds": [
+            "mob/happy_ghast/ambient1",
+            {
+                "name": "mob/happy_ghast/ambient2",
+                "weight": 30
+            },
+            {
+                "name": "mob/happy_ghast/ambient3",
+                "weight": 20
+            },
+            "mob/happy_ghast/ambient4",
+            {
+                "name": "mob/happy_ghast/ambient5",
+                "weight": 20
+            },
+            "mob/happy_ghast/ambient6",
+            {
+                "name": "mob/happy_ghast/ambient7",
+                "weight": 20
+            },
+            {
+                "name": "mob/happy_ghast/ambient8",
+                "weight": 10
+            },
+            {
+                "name": "mob/happy_ghast/ambient9",
+                "weight": 10
+            },
+            {
+                "name": "mob/happy_ghast/ambient10",
+                "weight": 10
+            },
+            {
+                "name": "mob/happy_ghast/ambient11",
+                "weight": 10
+            },
+            {
+                "name": "mob/happy_ghast/ambient12",
+                "weight": 20
+            },
+            {
+                "name": "mob/happy_ghast/ambient13",
+                "weight": 20
+            },
+            {
+                "name": "mob/happy_ghast/ambient14",
+                "weight": 10
+            },
+            {
+                "name": "hermits:false_omg_hi",
+                "weight": 1
+            }
+        ],
+        "replace": true
+    },
+    "entity.horse.hurt": {
+        "sounds": [
+            "hermits:bdubs_what_is_happening"
+        ],
+        "replace": false
+    },
+    "ui.toast.challenge_complete": {
+        "sounds": [
+            {
+                "name": "ui/toast/challenge_complete",
+                "volume": 0.6,
+                "weight": 10
+            },
+            {
+                "name": "hermits:grian_winning",
+                "weight": 1
+            }
+        ],
+        "replace": true
+    },
+    "entity.wandering_trader.ambient": {
+        "sounds": [
+            {
+                "name": "mob/wandering_trader/idle1",
+                "weight": 20
+            },
+            {
+                "name": "mob/wandering_trader/idle2",
+                "weight": 20
+            },
+            {
+                "name": "mob/wandering_trader/idle3",
+                "weight": 20
+            },
+            {
+                "name": "mob/wandering_trader/idle4",
+                "weight": 20
+            },
+            {
+                "name": "mob/wandering_trader/idle5",
+                "weight": 20
+            },
+            {
+                "name": "hermits:joe_get_money",
+                "weight": 1
+            }
+        ],
+        "replace": true
+    },
+    "item.mace.smash_ground_heavy": {
+        "sounds": [
+            {
+                "name": "hermits:bdubs_hammer_meet_nail",
+                "weight": 1,
+                "attenuation_distance": 30
+            }
+        ],
+        "replace": true
+    },
+    "entity.pillager.ambient": {
+        "sounds": [
+            {
+                "name": "mob/pillager/idle1",
+                "weight": 25
+            },
+            {
+                "name": "mob/pillager/idle2",
+                "weight": 25
+            },
+            {
+                "name": "mob/pillager/idle3",
+                "weight": 25
+            },
+            {
+                "name": "mob/pillager/idle4",
+                "weight": 25
+            },
+            {
+                "name": "hermits:tango_frustrated",
+                "weight": 1
+            }
+        ],
+        "replace": true
     }
 }
