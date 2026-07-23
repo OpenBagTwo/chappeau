@@ -1,0 +1,17 @@
+{
+    "pack": {
+        "pack_format": 88,
+        "description": [
+            {
+                "text": "Look Into My Cubes",
+                "color": "gold"
+            },
+            {
+                "text": "\n by OpenBagTwo",
+                "color": "dark_gray"
+            }
+        ],
+        "min_format": 88,
+        "max_format": 9999
+    }
+}
